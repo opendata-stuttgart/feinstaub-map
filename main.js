@@ -18164,9 +18164,6 @@
 			}).addTo(map);
 
 			var options = {
-				radius: 10,
-				opacity: 0.5,
-				duration: 500,
 				lng: function lng(d) {
 					return d.longitude;
 				},
@@ -18186,14 +18183,6 @@
 
 			_feinstaubApi2.default.getUniqueCells().then(function (cells) {
 				hexLayer.data(cells);
-				// for(let cell of cells) {
-				// 	leaflet.rectangle( cell.bounds, {
-				// 		color: 'red',
-				// 		fillColor: '#f03',
-				// 		fillOpacity: 0.5,
-				// 		weight: 1
-				// 	}).addTo(map)
-				// }
 			});
 		}
 	};
@@ -46833,26 +46822,30 @@
 		},
 
 		options: {
-			radius: 10,
+			radius: 25,
 			opacity: 0.5,
 			duration: 200,
-			valueFloor: undefined,
+			valueFloor: 0,
 			valueCeil: undefined,
 			colorRange: ['#FF0000', '#08306b'],
 
 			onmouseover: undefined,
 			onmouseout: undefined,
-			click: undefined
+			click: undefined,
+			lng: function lng(d) {
+				return d.longitude;
+			},
+			lat: function lat(d) {
+				return d.latitude;
+			},
+			value: function value(d) {
+				console.log(d);
+				return d[0].o.data.P1;
+			}
 		},
 
 		initialize: function initialize(options) {
 			_leaflet2.default.setOptions(this, options);
-
-			this._hexLayout = _d2.default.hexbin().radius(this.options.radius).x(function (d) {
-				return d.point.x;
-			}).y(function (d) {
-				return d.point.y;
-			});
 
 			this._data = [];
 			this._colorScale = _d2.default.scale.linear().range(this.options.colorRange).clamp(true);
@@ -46965,9 +46958,7 @@
 			var scale = ["scale(", this._scale, ",", this._scale, ") "];
 			this._rootGroup.attr("transform", shift.concat(scale).join(""));
 
-			if (this.options.zoomDraw) {
-				this.draw();
-			}
+			this.draw();
 			this._enableLeafletRounding();
 		},
 		// (Re)draws the hexbin group
@@ -46994,21 +46985,22 @@
 				return 'hexbin zoom-' + d;
 			});
 
-			//enter + update
-			// join.attr('transform', 'translate(1,1)');
-
 			// exit
 			join.exit().remove();
 
 			// add the hexagons to the select
-			this._createHexagons(join, data);
+			this._createHexagons(join, data, projection);
 		},
-		_createHexagons: function _createHexagons(g, data) {
+		_createHexagons: function _createHexagons(g, data, projection) {
 			var that = this;
 
 			// Create the bins using the hexbin layout
-			var bins = that._hexLayout(data);
-			console.log(data, bins);
+			var hexbin = _d2.default.hexbin().radius(this.options.radius / projection.scale).x(function (d) {
+				return d.point.x;
+			}).y(function (d) {
+				return d.point.y;
+			});
+			var bins = hexbin(data);
 			// Determine the extent of the values
 			var extent = _d2.default.extent(bins, function (d) {
 				return that.options.value(d);
@@ -47025,9 +47017,7 @@
 			that._colorScale.domain(domain);
 
 			// Join - Join the Hexagons to the data
-			var join = g.selectAll('path.hexbin-hexagon').data(bins, function (d) {
-				return d.x + ':' + d.y;
-			});
+			var join = g.selectAll('path.hexbin-hexagon').data(bins);
 
 			// Update - set the fill and opacity on a transition (opacity is re-applied in case the enter transition was cancelled)
 			join.transition().duration(that.options.duration).attr('fill', function (d) {
@@ -47036,7 +47026,7 @@
 
 			// Enter - establish the path, the fill, and the initial opacity
 			join.enter().append('path').attr('class', 'hexbin-hexagon').attr('d', function (d) {
-				return 'M' + d.x + ',' + d.y + that._hexLayout.hexagon();
+				return 'M' + d.x + ',' + d.y + hexbin.hexagon();
 			}).attr('fill', function (d) {
 				return that._colorScale(that.options.value(d));
 			}).attr('fill-opacity', 0.01).attr('stroke-opacity', 0.01).on('mouseover', function (d, i) {
