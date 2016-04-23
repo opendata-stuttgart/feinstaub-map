@@ -1,0 +1,6 @@
+export const mapbox = {
+	id: 'mapbox.streets',
+	accessToken: 'YOUR MAPBOX TOKEN HERE'
+}
+
+export const center = [48.7791878,9.107176]

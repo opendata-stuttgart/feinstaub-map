@@ -1,7 +1,8 @@
+import Map from './Map'
 
 export default {
 	template: require('./app.jade'),
-	components: {},
+	components: {map: Map},
 	data() {
 		return {
 		}
@@ -10,6 +11,6 @@ export default {
 
 	},
 	ready() {
-		
+
 	}
 }
