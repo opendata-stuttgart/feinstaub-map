@@ -27,9 +27,6 @@ export default {
 		}).addTo(map)
 
 		let options = {
-			radius: 10,
-			opacity: 0.5,
-			duration: 500,
 			lng: function(d){
 				return d.longitude
 			},
@@ -49,14 +46,6 @@ export default {
 
 		api.getUniqueCells().then( (cells) => {
 			hexLayer.data(cells)
-			// for(let cell of cells) {
-			// 	leaflet.rectangle( cell.bounds, {
-			// 		color: 'red',
-			// 		fillColor: '#f03',
-			// 		fillOpacity: 0.5,
-			// 		weight: 1
-			// 	}).addTo(map)
-			// }
 		})
 	}
 }
