@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "leaflet": "^1.0.0-rc.1",
+    "lodash": "^4.11.1",
     "vue": "^1.0.21"
   }
 }

@@ -1,7 +1,8 @@
 import leaflet from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import config from '../config'
-console.log(config)
+import api from './feinstaub-api'
+
 export default {
 	template: require('./map.jade'),
 	components: {},
@@ -23,5 +24,16 @@ export default {
 			id: config.mapbox.id,
 			accessToken: config.mapbox.accessToken
 		}).addTo(map)
+
+		api.getUniqueCells().then( (cells) => {
+			for(let cell of cells) {
+				leaflet.rectangle( cell.bounds, {
+					color: 'red',
+					fillColor: '#f03',
+					fillOpacity: 0.5,
+					weight: 1
+				}).addTo(map)
+			}
+		})
 	}
 }
