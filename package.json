@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline"
+    "start": "webpack-dev-server --inline --host 0.0.0.0",
+    "build": "webpack -p --config webpack.production.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +22,8 @@
     "babel-runtime": "^6.6.1",
     "css-loader": "^0.23.1",
     "file-loader": "^0.8.5",
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
     "html-loader": "^0.4.3",
     "html-webpack-plugin": "^2.15.0",
     "jade": "^1.11.0",
@@ -33,7 +36,8 @@
     "stylus-loader": "^2.0.0",
     "url-loader": "^0.5.7",
     "webpack": "^2.1.0-beta.5",
-    "webpack-dev-server": "^2.0.0-beta"
+    "webpack-dev-server": "^2.0.0-beta",
+    "webpack-stream": "^3.2.0"
   },
   "dependencies": {
     "d3": "^3.5.16",
