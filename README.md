@@ -44,3 +44,17 @@ Used frameworks are:
 * [lodash](https://lodash.com/) (map, reduce, reorder data sets)
 * [vue](http://vuejs.org/)
 * [webpack](https://webpack.github.io/) is used for deployment
+
+## Usage
+
+### Installation
+
+npm install
+
+### Develop
+
+npm start
+
+### Publish
+
+npm run deploy

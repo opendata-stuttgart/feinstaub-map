@@ -10,6 +10,7 @@ let api = {
 		return api.fetchNow().then((json) => {
 			let cells = _.chain(json)
 				.filter((sensor) => sensor.location.latitude != null && sensor.location.longitude != null && sensor.sensor.sensor_type.name == "PPD42NS" && sensor.sensordatavalues.length == 6)
+				// response can contain multiple datapoints for one sensor, group by sensor-id and mean value
 				.groupBy((sensor) => sensor.sensor.id)
 				.map((values, key) => {
 					let lat = Number(values[0].location.latitude)
