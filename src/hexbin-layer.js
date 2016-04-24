@@ -97,6 +97,10 @@ L.HexbinLayer = L.Layer.extend({
 				console.log(sensor)
 				html += `<div class="tip-sensor">${sensor.o.data.P1.toFixed(2)}</div>`
 			}
+			if(d.length > 1) {
+				let mean = _.meanBy(d, (o) => o.o.data.P1)
+				html += `<div class="tip-mean">${mean.toFixed(2)}</div>`
+			}
 			return html
 		});
 		// Initial draw

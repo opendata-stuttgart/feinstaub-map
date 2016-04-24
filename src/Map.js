@@ -23,11 +23,14 @@ export default {
 			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
 			maxZoom: 13,
 			id: config.mapbox.id,
-			accessToken: config.mapbox.accessToken
+			accessToken: config.mapbox.accessToken,
+			// continuousWorld: false,
+			// noWrap: true
+
 		}).addTo(map)
 
 		let options = {
-	
+
 		}
 
 		let hexLayer = new leaflet.HexbinLayer(options).addTo(map)
