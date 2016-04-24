@@ -7824,7 +7824,7 @@
 
 
 	// module
-	exports.push([module.id, "html {\n  font-family: sans-serif;\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%;\n}\nbody {\n  margin: 0;\n}\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmain,\nnav,\nsection,\nsummary {\n  display: block;\n}\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n  vertical-align: baseline;\n}\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n[hidden],\ntemplate {\n  display: none;\n}\na {\n  background: transparent;\n}\na:active,\na:hover {\n  outline: 0;\n}\nabbr[title] {\n  border-bottom: 1px dotted;\n}\nb,\nstrong {\n  font-weight: bold;\n}\ndfn {\n  font-style: italic;\n}\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\nmark {\n  background: #ff0;\n  color: #000;\n}\nsmall {\n  font-size: 80%;\n}\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsup {\n  top: -0.5em;\n}\nsub {\n  bottom: -0.25em;\n}\nimg {\n  border: 0;\n}\nsvg:not(:root) {\n  overflow: hidden;\n}\nfigure {\n  margin: 1em 40px;\n}\nhr {\n  box-sizing: content-box;\n  height: 0;\n}\npre {\n  overflow: auto;\n}\ncode,\nkbd,\npre,\nsamp {\n  font-family: 'Bitstream Vera Sans Mono', Consolas, Courier, monospace, 'Bitstream Vera Sans Mono', Consolas, Courier, monospace;\n  font-size: 1em;\n}\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  color: inherit;\n  font: inherit;\n  margin: 0;\n}\nbutton {\n  overflow: visible;\n}\nbutton,\nselect {\n  text-transform: none;\n}\nbutton,\nhtml input[type=\"button\"],\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n  -webkit-appearance: button;\n  cursor: pointer;\n}\nbutton[disabled],\nhtml input[disabled] {\n  cursor: default;\n}\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\ninput {\n  line-height: normal;\n}\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  box-sizing: border-box;\n  padding: 0;\n}\ninput[type=\"number\"]::-webkit-inner-spin-button,\ninput[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\ninput[type=\"search\"] {\n  -webkit-appearance: textfield;\n  box-sizing: content-box;\n}\ninput[type=\"search\"]::-webkit-search-cancel-button,\ninput[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\nlegend {\n  border: 0;\n  padding: 0;\n}\ntextarea {\n  overflow: auto;\n}\noptgroup {\n  font-weight: bold;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\ntd,\nth {\n  padding: 0;\n}\nhtml {\n  font-size: 16px;\n  font-size: 100%;\n}\nbody {\n  font-family: 'Roboto';\n  color: #555;\n  -webkit-font-smoothing: antialiased;\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  font-size-adjust: auto;\n}\nb {\n  font-weight: bold;\n}\ni {\n  font-style: italic;\n}\nstrong {\n  font-weight: bold;\n}\nem {\n  font-style: italic;\n}\nh1 {\n  font-size: 38.4px;\n  font-size: 2.4rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh2 {\n  font-size: 28.8px;\n  font-size: 1.8rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh3 {\n  font-size: 24px;\n  font-size: 1.5rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh4 {\n  font-size: 20.8px;\n  font-size: 1.3rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh5 {\n  font-size: 16px;\n  font-size: 1rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh6 {\n  font-size: 14.4px;\n  font-size: 0.9rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n  text-transform: uppercase;\n}\nul {\n  margin: 5px 15px;\n  margin: 0.32rem 0.94rem;\n  padding-left: 1rem;\n}\nul li {\n  list-style-type: disc;\n  padding: 2px 0;\n  padding: 0.125rem;\n}\nol {\n  margin: 5px 18px;\n  margin: 0.32rem 1.125rem;\n  padding-left: 1rem;\n}\nol li {\n  list-style-type: decimal;\n  padding: 2px 0;\n  padding: 0.125rem;\n}\n::-moz-selection {\n  background: #0074d9;\n  color: #494949;\n}\n::selection {\n  background: #0074d9;\n  color: #494949;\n}\np {\n  font-size: 1rem;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nsmall {\n  font-size: 55%;\n  opacity: 0.6;\n  font-weight: normal;\n}\nblockquote {\n  border-left: 4px solid #0074d9;\n  margin: 1em 0;\n  padding-left: 1.5em;\n}\nblockquote:after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\nblockquote > p {\n  font-weight: 300;\n  font-size: 127%;\n  font-size: 1.27rem;\n  line-height: 127%;\n  line-height: 1.27rem;\n  margin-top: 0;\n}\nblockquote > cite,\nblockquote > footer,\nblockquote > figcaption {\n  color: #888;\n}\nblockquote > cite:before,\nblockquote > footer:before,\nblockquote > figcaption:before {\n  content: '\\2014';\n}\n.hyphenation {\n  -ms-word-break: break-all;\n  word-break: break-all;\n  word-break: break-word;\n  -webkit-hyphens: auto;\n     -moz-hyphens: auto;\n      -ms-hyphens: auto;\n          hyphens: auto;\n  -webkit-hyphenate-before: 2;\n  -webkit-hyphenate-after: 3;\n  hyphenate-lines: 3;\n}\nbody {\n  background-color: #fafafa;\n}\n.map {\n  height: 100vh;\n}\n", ""]);
+	exports.push([module.id, "html {\n  font-family: sans-serif;\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%;\n}\nbody {\n  margin: 0;\n}\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmain,\nnav,\nsection,\nsummary {\n  display: block;\n}\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n  vertical-align: baseline;\n}\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n[hidden],\ntemplate {\n  display: none;\n}\na {\n  background: transparent;\n}\na:active,\na:hover {\n  outline: 0;\n}\nabbr[title] {\n  border-bottom: 1px dotted;\n}\nb,\nstrong {\n  font-weight: bold;\n}\ndfn {\n  font-style: italic;\n}\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\nmark {\n  background: #ff0;\n  color: #000;\n}\nsmall {\n  font-size: 80%;\n}\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsup {\n  top: -0.5em;\n}\nsub {\n  bottom: -0.25em;\n}\nimg {\n  border: 0;\n}\nsvg:not(:root) {\n  overflow: hidden;\n}\nfigure {\n  margin: 1em 40px;\n}\nhr {\n  box-sizing: content-box;\n  height: 0;\n}\npre {\n  overflow: auto;\n}\ncode,\nkbd,\npre,\nsamp {\n  font-family: 'Bitstream Vera Sans Mono', Consolas, Courier, monospace, 'Bitstream Vera Sans Mono', Consolas, Courier, monospace;\n  font-size: 1em;\n}\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  color: inherit;\n  font: inherit;\n  margin: 0;\n}\nbutton {\n  overflow: visible;\n}\nbutton,\nselect {\n  text-transform: none;\n}\nbutton,\nhtml input[type=\"button\"],\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n  -webkit-appearance: button;\n  cursor: pointer;\n}\nbutton[disabled],\nhtml input[disabled] {\n  cursor: default;\n}\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\ninput {\n  line-height: normal;\n}\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  box-sizing: border-box;\n  padding: 0;\n}\ninput[type=\"number\"]::-webkit-inner-spin-button,\ninput[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\ninput[type=\"search\"] {\n  -webkit-appearance: textfield;\n  box-sizing: content-box;\n}\ninput[type=\"search\"]::-webkit-search-cancel-button,\ninput[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\nlegend {\n  border: 0;\n  padding: 0;\n}\ntextarea {\n  overflow: auto;\n}\noptgroup {\n  font-weight: bold;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\ntd,\nth {\n  padding: 0;\n}\nhtml {\n  font-size: 16px;\n  font-size: 100%;\n}\nbody {\n  font-family: 'Roboto';\n  color: #555;\n  -webkit-font-smoothing: antialiased;\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  font-size-adjust: auto;\n}\nb {\n  font-weight: bold;\n}\ni {\n  font-style: italic;\n}\nstrong {\n  font-weight: bold;\n}\nem {\n  font-style: italic;\n}\nh1 {\n  font-size: 38.4px;\n  font-size: 2.4rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh2 {\n  font-size: 28.8px;\n  font-size: 1.8rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh3 {\n  font-size: 24px;\n  font-size: 1.5rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh4 {\n  font-size: 20.8px;\n  font-size: 1.3rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh5 {\n  font-size: 16px;\n  font-size: 1rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh6 {\n  font-size: 14.4px;\n  font-size: 0.9rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n  text-transform: uppercase;\n}\nul {\n  margin: 5px 15px;\n  margin: 0.32rem 0.94rem;\n  padding-left: 1rem;\n}\nul li {\n  list-style-type: disc;\n  padding: 2px 0;\n  padding: 0.125rem;\n}\nol {\n  margin: 5px 18px;\n  margin: 0.32rem 1.125rem;\n  padding-left: 1rem;\n}\nol li {\n  list-style-type: decimal;\n  padding: 2px 0;\n  padding: 0.125rem;\n}\n::-moz-selection {\n  background: #0074d9;\n  color: #494949;\n}\n::selection {\n  background: #0074d9;\n  color: #494949;\n}\np {\n  font-size: 1rem;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nsmall {\n  font-size: 55%;\n  opacity: 0.6;\n  font-weight: normal;\n}\nblockquote {\n  border-left: 4px solid #0074d9;\n  margin: 1em 0;\n  padding-left: 1.5em;\n}\nblockquote:after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\nblockquote > p {\n  font-weight: 300;\n  font-size: 127%;\n  font-size: 1.27rem;\n  line-height: 127%;\n  line-height: 1.27rem;\n  margin-top: 0;\n}\nblockquote > cite,\nblockquote > footer,\nblockquote > figcaption {\n  color: #888;\n}\nblockquote > cite:before,\nblockquote > footer:before,\nblockquote > figcaption:before {\n  content: '\\2014';\n}\n.hyphenation {\n  -ms-word-break: break-all;\n  word-break: break-all;\n  word-break: break-word;\n  -webkit-hyphens: auto;\n     -moz-hyphens: auto;\n      -ms-hyphens: auto;\n          hyphens: auto;\n  -webkit-hyphenate-before: 2;\n  -webkit-hyphenate-after: 3;\n  hyphenate-lines: 3;\n}\nbody {\n  background-color: #fafafa;\n}\n.map {\n  height: 100vh;\n}\n.leaflet-pane > svg .d3-overlay path {\n  pointer-events: all;\n}\n.d3-tip {\n  padding: 0.5rem;\n  border-radius: 3px;\n  background-color: #263238;\n  color: #fafafa;\n  z-index: 500;\n  font-weight: 200;\n}\n", ""]);
 
 	// exports
 
@@ -18105,7 +18105,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	exports.default = {
-		template: __webpack_require__(313),
+		template: __webpack_require__(314),
 		components: { map: _Map2.default },
 		data: function data() {
 			return {};
@@ -18144,7 +18144,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	exports.default = {
-		template: __webpack_require__(312),
+		template: __webpack_require__(313),
 		components: {},
 		data: function data() {
 			return {};
@@ -18158,25 +18158,12 @@
 			});
 			_leaflet2.default.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 				attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-				maxZoom: 18,
+				maxZoom: 13,
 				id: _config2.default.mapbox.id,
 				accessToken: _config2.default.mapbox.accessToken
 			}).addTo(map);
 
-			var options = {
-				lng: function lng(d) {
-					return d.longitude;
-				},
-				lat: function lat(d) {
-					return d.latitude;
-				},
-				value: function value(d) {
-					console.log(d);
-					return d[0].o.data.P1;
-				},
-				valueFloor: 0,
-				valueCeil: undefined
-			};
+			var options = {};
 
 			var hexLayer = new _leaflet2.default.HexbinLayer(options).addTo(map);
 			hexLayer.colorScale().range(['green', 'red']);
@@ -30726,8 +30713,8 @@
 					var long = Number(values[0].location.longitude);
 					return {
 						bounds: [[lat, long], [lat + 0.001, long + 0.001]],
-						latitude: lat,
-						longitude: long,
+						latitude: lat + 0.0005,
+						longitude: long + 0.0005,
 						data: {
 							P1: data.P1 / values.length,
 							P2: data.P2 / values.length
@@ -46811,10 +46798,17 @@
 
 	var _d3Hexbin2 = _interopRequireDefault(_d3Hexbin);
 
+	var _lodash = __webpack_require__(307);
+
+	var _lodash2 = _interopRequireDefault(_lodash);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	_d2.default.hexbin = _d3Hexbin2.default.hexbin; // https://github.com/Asymmetrik/leaflet-d3/blob/master/src/js/hexbin/HexbinLayer.js
+	// https://github.com/Asymmetrik/leaflet-d3/blob/master/src/js/hexbin/HexbinLayer.js
 
+
+	_d2.default.hexbin = _d3Hexbin2.default.hexbin;
+	_d2.default.tip = __webpack_require__(312);
 
 	_leaflet2.default.HexbinLayer = _leaflet2.default.Layer.extend({
 		_undef: function _undef(a) {
@@ -46839,8 +46833,9 @@
 				return d.latitude;
 			},
 			value: function value(d) {
-				console.log(d);
-				return d[0].o.data.P1;
+				return _lodash2.default.meanBy(d, function (o) {
+					return o.o.data.P1;
+				});
 			}
 		},
 
@@ -46899,7 +46894,36 @@
 			this.projection.getZoom = this.map.getZoom.bind(this.map);
 			this.projection.getBounds = this.map.getBounds.bind(this.map);
 			this.selection = this._rootGroup; // ???
+			this.tip = _d2.default.tip().attr('class', 'd3-tip').html(function (d) {
+				var html = "";
+				var _iteratorNormalCompletion = true;
+				var _didIteratorError = false;
+				var _iteratorError = undefined;
 
+				try {
+					for (var _iterator = d[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+						var sensor = _step.value;
+
+						console.log(sensor);
+						html += '<div class="tip-sensor">' + sensor.o.data.P1.toFixed(2) + '</div>';
+					}
+				} catch (err) {
+					_didIteratorError = true;
+					_iteratorError = err;
+				} finally {
+					try {
+						if (!_iteratorNormalCompletion && _iterator.return) {
+							_iterator.return();
+						}
+					} finally {
+						if (_didIteratorError) {
+							throw _iteratorError;
+						}
+					}
+				}
+
+				return html;
+			});
 			// Initial draw
 			this.draw();
 
@@ -46939,7 +46963,7 @@
 		},
 		draw: function draw() {
 			this._disableLeafletRounding();
-			this._redraw(this.selection, this.projection, this.map.getZoom());
+			this._redraw(this.selection, this.projection, this.map.getZoom(), this.tip);
 			this._enableLeafletRounding();
 		},
 
@@ -46962,7 +46986,7 @@
 			this._enableLeafletRounding();
 		},
 		// (Re)draws the hexbin group
-		_redraw: function _redraw(selection, projection, zoom) {
+		_redraw: function _redraw(selection, projection, zoom, tip) {
 			var that = this;
 
 			// Generate the mapped version of the data
@@ -46989,9 +47013,9 @@
 			join.exit().remove();
 
 			// add the hexagons to the select
-			this._createHexagons(join, data, projection);
+			this._createHexagons(join, data, projection, tip);
 		},
-		_createHexagons: function _createHexagons(g, data, projection) {
+		_createHexagons: function _createHexagons(g, data, projection, tip) {
 			var that = this;
 
 			// Create the bins using the hexbin layout
@@ -47016,6 +47040,7 @@
 			// Set the colorscale domain
 			that._colorScale.domain(domain);
 
+			g.call(tip);
 			// Join - Join the Hexagons to the data
 			var join = g.selectAll('path.hexbin-hexagon').data(bins);
 
@@ -47029,15 +47054,7 @@
 				return 'M' + d.x + ',' + d.y + hexbin.hexagon();
 			}).attr('fill', function (d) {
 				return that._colorScale(that.options.value(d));
-			}).attr('fill-opacity', 0.01).attr('stroke-opacity', 0.01).on('mouseover', function (d, i) {
-				if (null != that.options.onmouseover) {
-					that.options.onmouseover(d, this, that);
-				}
-			}).on('mouseout', function (d, i) {
-				if (null != that.options.onmouseout) {
-					that.options.onmouseout(d, this, that);
-				}
-			}).on('click', function (d, i) {
+			}).attr('fill-opacity', 0.01).attr('stroke-opacity', 0.01).on('mouseover', tip.show).on('mouseout', tip.hide).on('click', function (d, i) {
 				if (null != that.options.onclick) {
 					that.options.onclick(d, this, that);
 				}
@@ -56816,12 +56833,322 @@
 
 /***/ },
 /* 312 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// d3.tip
+	// Copyright (c) 2013 Justin Palmer
+	//
+	// Tooltips for d3.js SVG visualizations
+
+	(function (root, factory) {
+	  if (true) {
+	    // AMD. Register as an anonymous module with d3 as a dependency.
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(310)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__))
+	  } else if (typeof module === 'object' && module.exports) {
+	    // CommonJS
+	    module.exports = function(d3) {
+	      d3.tip = factory(d3)
+	      return d3.tip
+	    }
+	  } else {
+	    // Browser global.
+	    root.d3.tip = factory(root.d3)
+	  }
+	}(this, function (d3) {
+
+	  // Public - contructs a new tooltip
+	  //
+	  // Returns a tip
+	  return function() {
+	    var direction = d3_tip_direction,
+	        offset    = d3_tip_offset,
+	        html      = d3_tip_html,
+	        node      = initNode(),
+	        svg       = null,
+	        point     = null,
+	        target    = null
+
+	    function tip(vis) {
+	      svg = getSVGNode(vis)
+	      point = svg.createSVGPoint()
+	      document.body.appendChild(node)
+	    }
+
+	    // Public - show the tooltip on the screen
+	    //
+	    // Returns a tip
+	    tip.show = function() {
+	      var args = Array.prototype.slice.call(arguments)
+	      if(args[args.length - 1] instanceof SVGElement) target = args.pop()
+
+	      var content = html.apply(this, args),
+	          poffset = offset.apply(this, args),
+	          dir     = direction.apply(this, args),
+	          nodel   = d3.select(node),
+	          i       = directions.length,
+	          coords,
+	          scrollTop  = document.documentElement.scrollTop || document.body.scrollTop,
+	          scrollLeft = document.documentElement.scrollLeft || document.body.scrollLeft
+
+	      nodel.html(content)
+	        .style({ opacity: 1, 'pointer-events': 'all' })
+
+	      while(i--) nodel.classed(directions[i], false)
+	      coords = direction_callbacks.get(dir).apply(this)
+	      nodel.classed(dir, true).style({
+	        top: (coords.top +  poffset[0]) + scrollTop + 'px',
+	        left: (coords.left + poffset[1]) + scrollLeft + 'px'
+	      })
+
+	      return tip
+	    }
+
+	    // Public - hide the tooltip
+	    //
+	    // Returns a tip
+	    tip.hide = function() {
+	      var nodel = d3.select(node)
+	      nodel.style({ opacity: 0, 'pointer-events': 'none' })
+	      return tip
+	    }
+
+	    // Public: Proxy attr calls to the d3 tip container.  Sets or gets attribute value.
+	    //
+	    // n - name of the attribute
+	    // v - value of the attribute
+	    //
+	    // Returns tip or attribute value
+	    tip.attr = function(n, v) {
+	      if (arguments.length < 2 && typeof n === 'string') {
+	        return d3.select(node).attr(n)
+	      } else {
+	        var args =  Array.prototype.slice.call(arguments)
+	        d3.selection.prototype.attr.apply(d3.select(node), args)
+	      }
+
+	      return tip
+	    }
+
+	    // Public: Proxy style calls to the d3 tip container.  Sets or gets a style value.
+	    //
+	    // n - name of the property
+	    // v - value of the property
+	    //
+	    // Returns tip or style property value
+	    tip.style = function(n, v) {
+	      if (arguments.length < 2 && typeof n === 'string') {
+	        return d3.select(node).style(n)
+	      } else {
+	        var args =  Array.prototype.slice.call(arguments)
+	        d3.selection.prototype.style.apply(d3.select(node), args)
+	      }
+
+	      return tip
+	    }
+
+	    // Public: Set or get the direction of the tooltip
+	    //
+	    // v - One of n(north), s(south), e(east), or w(west), nw(northwest),
+	    //     sw(southwest), ne(northeast) or se(southeast)
+	    //
+	    // Returns tip or direction
+	    tip.direction = function(v) {
+	      if (!arguments.length) return direction
+	      direction = v == null ? v : d3.functor(v)
+
+	      return tip
+	    }
+
+	    // Public: Sets or gets the offset of the tip
+	    //
+	    // v - Array of [x, y] offset
+	    //
+	    // Returns offset or
+	    tip.offset = function(v) {
+	      if (!arguments.length) return offset
+	      offset = v == null ? v : d3.functor(v)
+
+	      return tip
+	    }
+
+	    // Public: sets or gets the html value of the tooltip
+	    //
+	    // v - String value of the tip
+	    //
+	    // Returns html value or tip
+	    tip.html = function(v) {
+	      if (!arguments.length) return html
+	      html = v == null ? v : d3.functor(v)
+
+	      return tip
+	    }
+
+	    function d3_tip_direction() { return 'n' }
+	    function d3_tip_offset() { return [0, 0] }
+	    function d3_tip_html() { return ' ' }
+
+	    var direction_callbacks = d3.map({
+	      n:  direction_n,
+	      s:  direction_s,
+	      e:  direction_e,
+	      w:  direction_w,
+	      nw: direction_nw,
+	      ne: direction_ne,
+	      sw: direction_sw,
+	      se: direction_se
+	    }),
+
+	    directions = direction_callbacks.keys()
+
+	    function direction_n() {
+	      var bbox = getScreenBBox()
+	      return {
+	        top:  bbox.n.y - node.offsetHeight,
+	        left: bbox.n.x - node.offsetWidth / 2
+	      }
+	    }
+
+	    function direction_s() {
+	      var bbox = getScreenBBox()
+	      return {
+	        top:  bbox.s.y,
+	        left: bbox.s.x - node.offsetWidth / 2
+	      }
+	    }
+
+	    function direction_e() {
+	      var bbox = getScreenBBox()
+	      return {
+	        top:  bbox.e.y - node.offsetHeight / 2,
+	        left: bbox.e.x
+	      }
+	    }
+
+	    function direction_w() {
+	      var bbox = getScreenBBox()
+	      return {
+	        top:  bbox.w.y - node.offsetHeight / 2,
+	        left: bbox.w.x - node.offsetWidth
+	      }
+	    }
+
+	    function direction_nw() {
+	      var bbox = getScreenBBox()
+	      return {
+	        top:  bbox.nw.y - node.offsetHeight,
+	        left: bbox.nw.x - node.offsetWidth
+	      }
+	    }
+
+	    function direction_ne() {
+	      var bbox = getScreenBBox()
+	      return {
+	        top:  bbox.ne.y - node.offsetHeight,
+	        left: bbox.ne.x
+	      }
+	    }
+
+	    function direction_sw() {
+	      var bbox = getScreenBBox()
+	      return {
+	        top:  bbox.sw.y,
+	        left: bbox.sw.x - node.offsetWidth
+	      }
+	    }
+
+	    function direction_se() {
+	      var bbox = getScreenBBox()
+	      return {
+	        top:  bbox.se.y,
+	        left: bbox.e.x
+	      }
+	    }
+
+	    function initNode() {
+	      var node = d3.select(document.createElement('div'))
+	      node.style({
+	        position: 'absolute',
+	        top: 0,
+	        opacity: 0,
+	        'pointer-events': 'none',
+	        'box-sizing': 'border-box'
+	      })
+
+	      return node.node()
+	    }
+
+	    function getSVGNode(el) {
+	      el = el.node()
+	      if(el.tagName.toLowerCase() === 'svg')
+	        return el
+
+	      return el.ownerSVGElement
+	    }
+
+	    // Private - gets the screen coordinates of a shape
+	    //
+	    // Given a shape on the screen, will return an SVGPoint for the directions
+	    // n(north), s(south), e(east), w(west), ne(northeast), se(southeast), nw(northwest),
+	    // sw(southwest).
+	    //
+	    //    +-+-+
+	    //    |   |
+	    //    +   +
+	    //    |   |
+	    //    +-+-+
+	    //
+	    // Returns an Object {n, s, e, w, nw, sw, ne, se}
+	    function getScreenBBox() {
+	      var targetel   = target || d3.event.target;
+
+	      while ('undefined' === typeof targetel.getScreenCTM && 'undefined' === targetel.parentNode) {
+	          targetel = targetel.parentNode;
+	      }
+
+	      var bbox       = {},
+	          matrix     = targetel.getScreenCTM(),
+	          tbbox      = targetel.getBBox(),
+	          width      = tbbox.width,
+	          height     = tbbox.height,
+	          x          = tbbox.x,
+	          y          = tbbox.y
+
+	      point.x = x
+	      point.y = y
+	      bbox.nw = point.matrixTransform(matrix)
+	      point.x += width
+	      bbox.ne = point.matrixTransform(matrix)
+	      point.y += height
+	      bbox.se = point.matrixTransform(matrix)
+	      point.x -= width
+	      bbox.sw = point.matrixTransform(matrix)
+	      point.y -= height / 2
+	      bbox.w  = point.matrixTransform(matrix)
+	      point.x += width
+	      bbox.e = point.matrixTransform(matrix)
+	      point.x -= width / 2
+	      point.y -= height / 2
+	      bbox.n = point.matrixTransform(matrix)
+	      point.y += height
+	      bbox.s = point.matrixTransform(matrix)
+
+	      return bbox
+	    }
+
+	    return tip
+	  };
+
+	}));
+
+
+/***/ },
+/* 313 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"map\"></div>";
 
 /***/ },
-/* 313 */
+/* 314 */
 /***/ function(module, exports) {
 
 	module.exports = "<map></map>";
