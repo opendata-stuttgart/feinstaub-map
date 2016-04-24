@@ -5,7 +5,6 @@ import d3Hexbin from 'd3-hexbin'
 import _ from 'lodash'
 
 d3.hexbin = d3Hexbin.hexbin
-d3.tip = require('d3-tip')
 
 L.HexbinLayer = L.Layer.extend({
 	_undef(a) { return typeof a == "undefined" },
@@ -91,18 +90,7 @@ L.HexbinLayer = L.Layer.extend({
 		this.projection.getZoom = this.map.getZoom.bind(this.map)
 		this.projection.getBounds = this.map.getBounds.bind(this.map)
 		this.selection = this._rootGroup // ???
-		this.tip = d3.tip().attr('class', 'd3-tip').html(function(d) {
-			let html = ""
-			for(let sensor of d) {
-				console.log(sensor)
-				html += `<div class="tip-sensor">${sensor.o.data.P1.toFixed(2)}</div>`
-			}
-			if(d.length > 1) {
-				let mean = _.meanBy(d, (o) => o.o.data.P1)
-				html += `<div class="tip-mean">${mean.toFixed(2)}</div>`
-			}
-			return html
-		});
+
 		// Initial draw
 		this.draw()
 
@@ -146,7 +134,7 @@ L.HexbinLayer = L.Layer.extend({
 
 	draw() {
 		this._disableLeafletRounding()
-		this._redraw(this.selection, this.projection, this.map.getZoom(), this.tip)
+		this._redraw(this.selection, this.projection, this.map.getZoom())
 		this._enableLeafletRounding()
 	},
 	getEvents: function() { return {zoomend: this._zoomChange}; },
@@ -167,7 +155,7 @@ L.HexbinLayer = L.Layer.extend({
 		this._enableLeafletRounding()
 	},
 	// (Re)draws the hexbin group
-	_redraw(selection, projection, zoom, tip){
+	_redraw(selection, projection, zoom){
 		var that = this;
 
 		// Generate the mapped version of the data
@@ -192,11 +180,11 @@ L.HexbinLayer = L.Layer.extend({
 		join.exit().remove();
 
 		// add the hexagons to the select
-		this._createHexagons(join, data, projection, tip);
+		this._createHexagons(join, data, projection)
 
 	},
 
-	_createHexagons(g, data, projection, tip) {
+	_createHexagons(g, data, projection) {
 		var that = this;
 
 		// Create the bins using the hexbin layout
@@ -220,7 +208,6 @@ L.HexbinLayer = L.Layer.extend({
 		// Set the colorscale domain
 		that._colorScale.domain(domain);
 
-		g.call(tip)
 		// Join - Join the Hexagons to the data
 		var join = g.selectAll('path.hexbin-hexagon')
 			.data(bins)
@@ -237,8 +224,8 @@ L.HexbinLayer = L.Layer.extend({
 			.attr('fill', function(d){ return that._colorScale(that.options.value(d)); })
 			.attr('fill-opacity', 0.01)
 			.attr('stroke-opacity', 0.01)
-			.on('mouseover', tip.show)
-			.on('mouseout', tip.hide)
+			.on('mouseover', this.options.mouseover)
+			.on('mouseout', this.options.mouseout)
 			.on('click', function(d, i) {
 				if(null != that.options.onclick) {
 					that.options.onclick(d, this, that);

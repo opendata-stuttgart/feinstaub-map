@@ -1,0 +1,15 @@
+#cell-info
+	h3 #Sensors {{cell.length}}
+	table
+		tr
+			th
+			th P1
+			th P2
+		tr.mean
+			td mean
+			td {{mean.P1.toFixed(2)}}
+			td {{mean.P2.toFixed(2)}}
+		tr(v-for="sensor in cell")
+			td {{sensor.o.id}}
+			td {{sensor.o.data.P1.toFixed(2)}}
+			td {{sensor.o.data.P2.toFixed(2)}}

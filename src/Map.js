@@ -30,13 +30,18 @@ export default {
 		}).addTo(map)
 
 		let options = {
-
+			mouseover: (data) => {
+				this.$dispatch('cell-selected', data)
+			},
+			mouseout: () => {
+				// this.$dispatch('cell-selected', null)
+			}
 		}
 
 		let hexLayer = new leaflet.HexbinLayer(options).addTo(map)
 		hexLayer.colorScale().range(['green', 'red']);
 
-		api.getUniqueCells().then( (cells) => {
+		api.getAllSensors().then( (cells) => {
 			hexLayer.data(cells)
 		})
 	}
