@@ -22,8 +22,8 @@ let api = {
 					let long = Number(values[0].location.longitude)
 					return {
 						bounds: [[lat, long],[lat + 0.001, long + 0.001]],
-						latitude: lat,
-						longitude: long,
+						latitude: lat+0.0005,
+						longitude: long+0.0005,
 						data: {
 							P1: data.P1 / values.length,
 							P2: data.P2 / values.length

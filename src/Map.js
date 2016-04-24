@@ -21,24 +21,13 @@ export default {
 		})
 		leaflet.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-			maxZoom: 18,
+			maxZoom: 13,
 			id: config.mapbox.id,
 			accessToken: config.mapbox.accessToken
 		}).addTo(map)
 
 		let options = {
-			lng: function(d){
-				return d.longitude
-			},
-			lat: function(d){
-				return d.latitude
-			},
-			value: function(d){
-				console.log(d)
-				return d[0].o.data.P1
-			},
-			valueFloor: 0,
-			valueCeil: undefined
+	
 		}
 
 		let hexLayer = new leaflet.HexbinLayer(options).addTo(map)
