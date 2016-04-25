@@ -41,6 +41,7 @@ The implemetation makes use of various frameworks and is on ECMA6 language level
 Used frameworks are:
 
 * [leaflet](http://leafletjs.com/) (mapping framework)
+* [d3](https://d3js.org/)
 * [lodash](https://lodash.com/) (map, reduce, reorder data sets)
 * [vue](http://vuejs.org/)
 * [webpack](https://webpack.github.io/) is used for deployment

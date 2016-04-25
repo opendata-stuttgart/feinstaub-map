@@ -6,11 +6,18 @@ let api = {
 		return fetch(URL).then((response) => response.json())
 	},
 
+	// fetches from /now, ignores non-finedust sensors
+	// /now returns data from last 5 minutes, so we group all data by sensorId
+	// and compute a mean to get distinct values per sensor
 	getAllSensors() {
 		return api.fetchNow().then((json) => {
 			let cells = _.chain(json)
-				.filter((sensor) => sensor.location.latitude != null && sensor.location.longitude != null && sensor.sensor.sensor_type.name == "PPD42NS" && sensor.sensordatavalues.length == 6)
-				// response can contain multiple datapoints for one sensor, group by sensor-id and mean value
+				.filter((sensor) =>
+					sensor.location.latitude != null &&
+					sensor.location.longitude != null &&
+					sensor.sensor.sensor_type.name == "PPD42NS" &&
+					sensor.sensordatavalues.length == 6
+				)
 				.groupBy((sensor) => sensor.sensor.id)
 				.map((values, key) => {
 					let lat = Number(values[0].location.latitude)
@@ -22,7 +29,6 @@ let api = {
 						return acc
 					}, {P1: 0, P2: 0})
 					return {
-						bounds: [[lat, long],[lat + 0.001, long + 0.001]],
 						latitude: lat+0.0005,
 						longitude: long+0.0005,
 						id: values[0].sensor.id,
@@ -33,7 +39,6 @@ let api = {
 					}
 				})
 				.value()
-			console.log(cells)
 
 			return Promise.resolve(cells)
 		})

@@ -35,11 +35,11 @@ export default {
 			},
 			mouseout: () => {
 				// this.$dispatch('cell-selected', null)
-			}
+			},
+			colorRange: ['green', 'red']
 		}
 
 		let hexLayer = new leaflet.HexbinLayer(options).addTo(map)
-		hexLayer.colorScale().range(['green', 'red']);
 
 		api.getAllSensors().then( (cells) => {
 			hexLayer.data(cells)
