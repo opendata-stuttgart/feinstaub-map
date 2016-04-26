@@ -7824,7 +7824,7 @@
 
 
 	// module
-	exports.push([module.id, "html {\n  font-family: sans-serif;\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%;\n}\nbody {\n  margin: 0;\n}\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmain,\nnav,\nsection,\nsummary {\n  display: block;\n}\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n  vertical-align: baseline;\n}\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n[hidden],\ntemplate {\n  display: none;\n}\na {\n  background: transparent;\n}\na:active,\na:hover {\n  outline: 0;\n}\nabbr[title] {\n  border-bottom: 1px dotted;\n}\nb,\nstrong {\n  font-weight: bold;\n}\ndfn {\n  font-style: italic;\n}\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\nmark {\n  background: #ff0;\n  color: #000;\n}\nsmall {\n  font-size: 80%;\n}\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsup {\n  top: -0.5em;\n}\nsub {\n  bottom: -0.25em;\n}\nimg {\n  border: 0;\n}\nsvg:not(:root) {\n  overflow: hidden;\n}\nfigure {\n  margin: 1em 40px;\n}\nhr {\n  box-sizing: content-box;\n  height: 0;\n}\npre {\n  overflow: auto;\n}\ncode,\nkbd,\npre,\nsamp {\n  font-family: 'Roboto Mono', 'Bitstream Vera Sans Mono', Consolas, Courier, monospace, 'Roboto Mono', 'Bitstream Vera Sans Mono', Consolas, Courier, monospace;\n  font-size: 1em;\n}\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  color: inherit;\n  font: inherit;\n  margin: 0;\n}\nbutton {\n  overflow: visible;\n}\nbutton,\nselect {\n  text-transform: none;\n}\nbutton,\nhtml input[type=\"button\"],\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n  -webkit-appearance: button;\n  cursor: pointer;\n}\nbutton[disabled],\nhtml input[disabled] {\n  cursor: default;\n}\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\ninput {\n  line-height: normal;\n}\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  box-sizing: border-box;\n  padding: 0;\n}\ninput[type=\"number\"]::-webkit-inner-spin-button,\ninput[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\ninput[type=\"search\"] {\n  -webkit-appearance: textfield;\n  box-sizing: content-box;\n}\ninput[type=\"search\"]::-webkit-search-cancel-button,\ninput[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\nlegend {\n  border: 0;\n  padding: 0;\n}\ntextarea {\n  overflow: auto;\n}\noptgroup {\n  font-weight: bold;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\ntd,\nth {\n  padding: 0;\n}\nhtml {\n  font-size: 16px;\n  font-size: 100%;\n}\nbody {\n  font-family: 'Roboto';\n  color: #555;\n  -webkit-font-smoothing: antialiased;\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  font-size-adjust: auto;\n}\nb {\n  font-weight: bold;\n}\ni {\n  font-style: italic;\n}\nstrong {\n  font-weight: bold;\n}\nem {\n  font-style: italic;\n}\nh1 {\n  font-size: 38.4px;\n  font-size: 2.4rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh2 {\n  font-size: 28.8px;\n  font-size: 1.8rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh3 {\n  font-size: 24px;\n  font-size: 1.5rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh4 {\n  font-size: 20.8px;\n  font-size: 1.3rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh5 {\n  font-size: 16px;\n  font-size: 1rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh6 {\n  font-size: 14.4px;\n  font-size: 0.9rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n  text-transform: uppercase;\n}\nul {\n  margin: 5px 15px;\n  margin: 0.32rem 0.94rem;\n  padding-left: 1rem;\n}\nul li {\n  list-style-type: disc;\n  padding: 2px 0;\n  padding: 0.125rem;\n}\nol {\n  margin: 5px 18px;\n  margin: 0.32rem 1.125rem;\n  padding-left: 1rem;\n}\nol li {\n  list-style-type: decimal;\n  padding: 2px 0;\n  padding: 0.125rem;\n}\n::-moz-selection {\n  background: #0074d9;\n  color: #494949;\n}\n::selection {\n  background: #0074d9;\n  color: #494949;\n}\np {\n  font-size: 1rem;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nsmall {\n  font-size: 55%;\n  opacity: 0.6;\n  font-weight: normal;\n}\nblockquote {\n  border-left: 4px solid #0074d9;\n  margin: 1em 0;\n  padding-left: 1.5em;\n}\nblockquote:after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\nblockquote > p {\n  font-weight: 300;\n  font-size: 127%;\n  font-size: 1.27rem;\n  line-height: 127%;\n  line-height: 1.27rem;\n  margin-top: 0;\n}\nblockquote > cite,\nblockquote > footer,\nblockquote > figcaption {\n  color: #888;\n}\nblockquote > cite:before,\nblockquote > footer:before,\nblockquote > figcaption:before {\n  content: '\\2014';\n}\n.hyphenation {\n  -ms-word-break: break-all;\n  word-break: break-all;\n  word-break: break-word;\n  -webkit-hyphens: auto;\n     -moz-hyphens: auto;\n      -ms-hyphens: auto;\n          hyphens: auto;\n  -webkit-hyphenate-before: 2;\n  -webkit-hyphenate-after: 3;\n  hyphenate-lines: 3;\n}\nbody {\n  background-color: #fafafa;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: column;\n  -webkit-justify-content: column;\n      -ms-flex-pack: column;\n          justify-content: column;\n  overflow: hidden;\n}\n.map {\n  height: 100vh;\n  -webkit-box-flex: 1;\n  -webkit-flex: 1 0;\n      -ms-flex: 1 0;\n          flex: 1 0;\n}\n#cell-info {\n  width: 10rem;\n  background-color: #263238;\n  color: #fafafa;\n  padding: 0.5rem;\n  overflow-y: scroll;\n  height: 100vh;\n}\n#cell-info h3,\n#cell-info td {\n  font-weight: 200;\n}\n#cell-info table {\n  width: 100%;\n  margin-right: 1rem;\n}\n#cell-info td {\n  text-align: right;\n}\n#cell-info th {\n  font-weight: 300;\n  border-bottom: 2px solid #fafafa;\n}\n#cell-info .mean {\n  border-bottom: 1px solid #fafafa;\n}\n.leaflet-pane > svg .d3-overlay path {\n  pointer-events: all;\n}\n.d3-tip {\n  font-family: 'Roboto Mono', 'Bitstream Vera Sans Mono', Consolas, Courier, monospace;\n  font-size: 0.4rem;\n  border-radius: 3px;\n  background-color: #263238;\n  color: #fafafa;\n  z-index: 500;\n  font-weight: 200;\n  text-align: right;\n}\n", ""]);
+	exports.push([module.id, "html {\n  font-family: sans-serif;\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%;\n}\nbody {\n  margin: 0;\n}\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmain,\nnav,\nsection,\nsummary {\n  display: block;\n}\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n  vertical-align: baseline;\n}\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n[hidden],\ntemplate {\n  display: none;\n}\na {\n  background: transparent;\n}\na:active,\na:hover {\n  outline: 0;\n}\nabbr[title] {\n  border-bottom: 1px dotted;\n}\nb,\nstrong {\n  font-weight: bold;\n}\ndfn {\n  font-style: italic;\n}\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\nmark {\n  background: #ff0;\n  color: #000;\n}\nsmall {\n  font-size: 80%;\n}\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsup {\n  top: -0.5em;\n}\nsub {\n  bottom: -0.25em;\n}\nimg {\n  border: 0;\n}\nsvg:not(:root) {\n  overflow: hidden;\n}\nfigure {\n  margin: 1em 40px;\n}\nhr {\n  box-sizing: content-box;\n  height: 0;\n}\npre {\n  overflow: auto;\n}\ncode,\nkbd,\npre,\nsamp {\n  font-family: 'Roboto Mono', 'Bitstream Vera Sans Mono', Consolas, Courier, monospace, 'Roboto Mono', 'Bitstream Vera Sans Mono', Consolas, Courier, monospace;\n  font-size: 1em;\n}\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  color: inherit;\n  font: inherit;\n  margin: 0;\n}\nbutton {\n  overflow: visible;\n}\nbutton,\nselect {\n  text-transform: none;\n}\nbutton,\nhtml input[type=\"button\"],\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n  -webkit-appearance: button;\n  cursor: pointer;\n}\nbutton[disabled],\nhtml input[disabled] {\n  cursor: default;\n}\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\ninput {\n  line-height: normal;\n}\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  box-sizing: border-box;\n  padding: 0;\n}\ninput[type=\"number\"]::-webkit-inner-spin-button,\ninput[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\ninput[type=\"search\"] {\n  -webkit-appearance: textfield;\n  box-sizing: content-box;\n}\ninput[type=\"search\"]::-webkit-search-cancel-button,\ninput[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\nlegend {\n  border: 0;\n  padding: 0;\n}\ntextarea {\n  overflow: auto;\n}\noptgroup {\n  font-weight: bold;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\ntd,\nth {\n  padding: 0;\n}\nhtml {\n  font-size: 16px;\n  font-size: 100%;\n}\nbody {\n  font-family: 'Roboto';\n  color: #555;\n  -webkit-font-smoothing: antialiased;\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  font-size-adjust: auto;\n}\nb {\n  font-weight: bold;\n}\ni {\n  font-style: italic;\n}\nstrong {\n  font-weight: bold;\n}\nem {\n  font-style: italic;\n}\nh1 {\n  font-size: 38.4px;\n  font-size: 2.4rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh2 {\n  font-size: 28.8px;\n  font-size: 1.8rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh3 {\n  font-size: 24px;\n  font-size: 1.5rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh4 {\n  font-size: 20.8px;\n  font-size: 1.3rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh5 {\n  font-size: 16px;\n  font-size: 1rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nh6 {\n  font-size: 14.4px;\n  font-size: 0.9rem;\n  text-rendering: optimizelegibility;\n  font-weight: bold;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n  text-transform: uppercase;\n}\nul {\n  margin: 5px 15px;\n  margin: 0.32rem 0.94rem;\n  padding-left: 1rem;\n}\nul li {\n  list-style-type: disc;\n  padding: 2px 0;\n  padding: 0.125rem;\n}\nol {\n  margin: 5px 18px;\n  margin: 0.32rem 1.125rem;\n  padding-left: 1rem;\n}\nol li {\n  list-style-type: decimal;\n  padding: 2px 0;\n  padding: 0.125rem;\n}\n::-moz-selection {\n  background: #0074d9;\n  color: #494949;\n}\n::selection {\n  background: #0074d9;\n  color: #494949;\n}\np {\n  font-size: 1rem;\n  margin: 0.75em 0;\n  line-height: 1.6em;\n}\nsmall {\n  font-size: 55%;\n  opacity: 0.6;\n  font-weight: normal;\n}\nblockquote {\n  border-left: 4px solid #0074d9;\n  margin: 1em 0;\n  padding-left: 1.5em;\n}\nblockquote:after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\nblockquote > p {\n  font-weight: 300;\n  font-size: 127%;\n  font-size: 1.27rem;\n  line-height: 127%;\n  line-height: 1.27rem;\n  margin-top: 0;\n}\nblockquote > cite,\nblockquote > footer,\nblockquote > figcaption {\n  color: #888;\n}\nblockquote > cite:before,\nblockquote > footer:before,\nblockquote > figcaption:before {\n  content: '\\2014';\n}\n.hyphenation {\n  -ms-word-break: break-all;\n  word-break: break-all;\n  word-break: break-word;\n  -webkit-hyphens: auto;\n     -moz-hyphens: auto;\n      -ms-hyphens: auto;\n          hyphens: auto;\n  -webkit-hyphenate-before: 2;\n  -webkit-hyphenate-after: 3;\n  hyphenate-lines: 3;\n}\nbody {\n  background-color: #fafafa;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: column;\n  -webkit-justify-content: column;\n      -ms-flex-pack: column;\n          justify-content: column;\n  overflow: hidden;\n}\n.map {\n  height: 100vh;\n  -webkit-box-flex: 1;\n  -webkit-flex: 1 0;\n      -ms-flex: 1 0;\n          flex: 1 0;\n}\n#cell-info {\n  width: 10rem;\n  background-color: #263238;\n  color: #fafafa;\n  padding: 0.5rem;\n  height: 100vh;\n}\n#cell-info h3,\n#cell-info td {\n  font-weight: 200;\n}\n#cell-info table {\n  width: 100%;\n  margin-right: 1rem;\n}\n#cell-info td {\n  text-align: right;\n}\n#cell-info th {\n  font-weight: 300;\n  border-bottom: 2px solid #fafafa;\n}\n#cell-info .mean {\n  border-bottom: 1px solid #fafafa;\n}\n.leaflet-pane > svg .d3-overlay path {\n  pointer-events: all;\n}\n.d3-tip {\n  font-family: 'Roboto Mono', 'Bitstream Vera Sans Mono', Consolas, Courier, monospace;\n  font-size: 0.4rem;\n  border-radius: 3px;\n  background-color: #263238;\n  color: #fafafa;\n  z-index: 500;\n  font-weight: 200;\n  text-align: right;\n}\n", ""]);
 
 	// exports
 
@@ -18186,11 +18186,11 @@
 				},
 				mouseout: function mouseout() {
 					// this.$dispatch('cell-selected', null)
-				}
+				},
+				colorRange: ['green', 'red']
 			};
 
 			var hexLayer = new _leaflet2.default.HexbinLayer(options).addTo(map);
-			hexLayer.colorScale().range(['green', 'red']);
 
 			_feinstaubApi2.default.getAllSensors().then(function (cells) {
 				hexLayer.data(cells);
@@ -30720,6 +30720,11 @@
 				return response.json();
 			});
 		},
+
+
+		// fetches from /now, ignores non-finedust sensors
+		// /now returns data from last 5 minutes, so we group all data by sensorId
+		// and compute a mean to get distinct values per sensor
 		getAllSensors: function getAllSensors() {
 			return api.fetchNow().then(function (json) {
 				var cells = _lodash2.default.chain(json).filter(function (sensor) {
@@ -30736,7 +30741,6 @@
 						return acc;
 					}, { P1: 0, P2: 0 });
 					return {
-						bounds: [[lat, long], [lat + 0.001, long + 0.001]],
 						latitude: lat + 0.0005,
 						longitude: long + 0.0005,
 						id: values[0].sensor.id,
@@ -30746,7 +30750,6 @@
 						}
 					};
 				}).value();
-				console.log(cells);
 
 				return Promise.resolve(cells);
 			});
@@ -46877,8 +46880,6 @@
 			this._svg = _leaflet2.default.svg();
 			map.addLayer(this._svg);
 			this._rootGroup = _d2.default.select(this._svg._rootGroup).classed("d3-overlay", true);
-
-			// this._rootGroup.classed("leaflet-zoom-hide", this.options.zoomHide)
 			this.selection = this._rootGroup;
 
 			// Init shift/scale invariance helper values
@@ -46921,12 +46922,9 @@
 
 			// Initial draw
 			this.draw();
-
-			// Set up events
-			// map.on({'moveend': this._redraw}, this);
 		},
 		onRemove: function onRemove(map) {
-			this._destroyContainer();
+			if (this._container != null) this._container.remove();
 
 			// Remove events
 			map.off({ 'moveend': this._redraw }, this);
@@ -46940,12 +46938,6 @@
 		addTo: function addTo(map) {
 			map.addLayer(this);
 			return this;
-		},
-		_destroyContainer: function _destroyContainer() {
-			// Remove the svg element
-			if (null != this._container) {
-				this._container.remove();
-			}
 		},
 		_disableLeafletRounding: function _disableLeafletRounding() {
 			this._leaflet_round = _leaflet2.default.Point.prototype._round;
@@ -46980,14 +46972,13 @@
 			this.draw();
 			this._enableLeafletRounding();
 		},
-		// (Re)draws the hexbin group
 		_redraw: function _redraw(selection, projection, zoom) {
-			var that = this;
+			var _this = this;
 
 			// Generate the mapped version of the data
-			var data = that._data.map(function (d) {
-				var lng = that.options.lng(d);
-				var lat = that.options.lat(d);
+			var data = this._data.map(function (d) {
+				var lng = _this.options.lng(d);
+				var lat = _this.options.lat(d);
 
 				var point = projection.latLngToLayerPoint([lat, lng]);
 				return { o: d, point: point };
@@ -47011,7 +47002,7 @@
 			this._createHexagons(join, data, projection);
 		},
 		_createHexagons: function _createHexagons(g, data, projection) {
-			var that = this;
+			var _this2 = this;
 
 			// Create the bins using the hexbin layout
 			var hexbin = _d2.default.hexbin().radius(this.options.radius / projection.scale).x(function (d) {
@@ -47022,40 +47013,35 @@
 			var bins = hexbin(data);
 			// Determine the extent of the values
 			var extent = _d2.default.extent(bins, function (d) {
-				return that.options.value(d);
+				return _this2.options.value(d);
 			});
-			if (null == extent[0]) extent[0] = 0;
-			if (null == extent[1]) extent[1] = 0;
-			if (null != that.options.valueFloor) extent[0] = that.options.valueFloor;
-			if (null != that.options.valueCeil) extent[1] = that.options.valueCeil;
+			if (extent[0] == null) extent[0] = 0;
+			if (extent[1] == null) extent[1] = 0;
+			if (null != this.options.valueFloor) extent[0] = this.options.valueFloor;
+			if (null != this.options.valueCeil) extent[1] = this.options.valueCeil;
 
 			// Match the domain cardinality to that of the color range, to allow for a polylinear scale
-			var domain = that._linearlySpace(extent[0], extent[1], that._colorScale.range().length);
+			var domain = this._linearlySpace(extent[0], extent[1], this._colorScale.range().length);
 
-			// Set the colorscale domain
-			that._colorScale.domain(domain);
+			this._colorScale.domain(domain);
 
 			// Join - Join the Hexagons to the data
 			var join = g.selectAll('path.hexbin-hexagon').data(bins);
 
 			// Update - set the fill and opacity on a transition (opacity is re-applied in case the enter transition was cancelled)
-			join.transition().duration(that.options.duration).attr('fill', function (d) {
-				return that._colorScale(that.options.value(d));
-			}).attr('fill-opacity', that.options.opacity).attr('stroke-opacity', that.options.opacity);
+			join.transition().duration(this.options.duration).attr('fill', function (d) {
+				return _this2._colorScale(_this2.options.value(d));
+			}).attr('fill-opacity', this.options.opacity).attr('stroke-opacity', this.options.opacity);
 
 			// Enter - establish the path, the fill, and the initial opacity
 			join.enter().append('path').attr('class', 'hexbin-hexagon').attr('d', function (d) {
 				return 'M' + d.x + ',' + d.y + hexbin.hexagon();
 			}).attr('fill', function (d) {
-				return that._colorScale(that.options.value(d));
-			}).attr('fill-opacity', 0.01).attr('stroke-opacity', 0.01).on('mouseover', this.options.mouseover).on('mouseout', this.options.mouseout).on('click', function (d, i) {
-				if (null != that.options.onclick) {
-					that.options.onclick(d, this, that);
-				}
-			}).transition().duration(that.options.duration).attr('fill-opacity', that.options.opacity).attr('stroke-opacity', that.options.opacity);
+				return _this2._colorScale(_this2.options.value(d));
+			}).attr('fill-opacity', 0.01).attr('stroke-opacity', 0.01).on('mouseover', this.options.mouseover).on('mouseout', this.options.mouseout).transition().duration(this.options.duration).attr('fill-opacity', this.options.opacity).attr('stroke-opacity', this.options.opacity);
 
 			// Exit
-			join.exit().transition().duration(that.options.duration).attr('fill-opacity', 0.01).attr('stroke-opacity', 0.01).remove();
+			join.exit().transition().duration(this.options.duration).attr('fill-opacity', 0.01).attr('stroke-opacity', 0.01).remove();
 		},
 		_project: function _project(coord) {
 			var point = this._map.latLngToLayerPoint([coord[1], coord[0]]);
@@ -47071,72 +47057,9 @@
 
 			return arr;
 		},
-
-
-		/*
-	  * Setter for the data
-	  */
 		data: function data(_data) {
 			this._data = null != _data ? _data : [];
 			this.draw();
-			return this;
-		},
-
-
-		/*
-	  * Getter/setter for the colorScale
-	  */
-		colorScale: function colorScale(_colorScale) {
-			if (undefined === _colorScale) {
-				return this._colorScale;
-			}
-
-			this._colorScale = _colorScale;
-			this.draw();
-			return this;
-		},
-
-
-		/*
-	  * Getter/Setter for the value function
-	  */
-		value: function value(valueFn) {
-			if (undefined === valueFn) {
-				return this.options.value;
-			}
-
-			this.options.value = valueFn;
-			this.draw();
-			return this;
-		},
-
-
-		/*
-	  * Getter/setter for the mouseover function
-	  */
-		onmouseover: function onmouseover(mouseoverFn) {
-			this.options.onmouseover = mouseoverFn;
-			this.draw();
-			return this;
-		},
-
-
-		/*
-	  * Getter/setter for the mouseout function
-	  */
-		onmouseout: function onmouseout(mouseoutFn) {
-			this.options.onmouseout = mouseoutFn;
-			this.draw();
-			return this;
-		},
-
-
-		/*
-	  * Getter/setter for the click function
-	  */
-		onclick: function onclick(clickFn) {
-			this.options.onclick = clickFn;
-			this._redraw();
 			return this;
 		}
 	});
