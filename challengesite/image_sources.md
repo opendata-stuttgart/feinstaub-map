@@ -7,7 +7,6 @@
 
 ![Martin Weis, own work](https://github.com/opendata-stuttgart/meta/blob/master/images/PPD_DHT_deployed_BirkachMitteStra.jpg)](PPD_DHT_deployed_BirkachMitteStra.jpg)
 
-
 https://upload.wikimedia.org/wikipedia/commons/0/06/Motorrad_aus_Zusatzzeichen_1046-12.svg
 von Purodha Blissenbach (extracted from: Image:Zusatzzeichen_1046-12.svg) [Public domain, Public domain oder Public domain], via Wikimedia Commons
 
