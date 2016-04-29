@@ -21,30 +21,27 @@ export default {
 		})
 		leaflet.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-			maxZoom: 18,
+			maxZoom: 13,
 			id: config.mapbox.id,
-			accessToken: config.mapbox.accessToken
+			accessToken: config.mapbox.accessToken,
+			// continuousWorld: false,
+			// noWrap: true
+
 		}).addTo(map)
 
 		let options = {
-			lng: function(d){
-				return d.longitude
+			mouseover: (data) => {
+				this.$dispatch('cell-selected', data)
 			},
-			lat: function(d){
-				return d.latitude
+			mouseout: () => {
+				// this.$dispatch('cell-selected', null)
 			},
-			value: function(d){
-				console.log(d)
-				return d[0].o.data.P1
-			},
-			valueFloor: 0,
-			valueCeil: undefined
+			colorRange: ['green', 'red']
 		}
 
 		let hexLayer = new leaflet.HexbinLayer(options).addTo(map)
-		hexLayer.colorScale().range(['green', 'red']);
 
-		api.getUniqueCells().then( (cells) => {
+		api.getAllSensors().then( (cells) => {
 			hexLayer.data(cells)
 		})
 	}
