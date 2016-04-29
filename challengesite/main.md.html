@@ -1,0 +1,87 @@
+<h1 id="particulate-matter-sensor-network">Particulate matter sensor network</h1>
+<ul>
+<li>Challenge: <a href="https://2016.spaceappschallenge.org/challenges/earth/aircheck">Aircheck</a></li>
+</ul>
+<!--CREATE YOUR PROJECT SOLUTION
+
+in response to
+Aircheck
+￼￼GENERAL INFORMATION-->
+<h2 id="solution-title">SOLUTION TITLE</h2>
+<p>Particulate matter sensor network</p>
+<!--Our Great Solution...-->
+<h2 id="solution-video">SOLUTION VIDEO</h2>
+<p>TBD, use the <a href="./partmattsensnet_in_30sec.html">presentation partmattsensnet_in_30sec.html</a>.</p>
+<!--
+https://www.youtube.com/watch?v=WZbuZT__twE
+-->
+<h2 id="feature-image">FEATURE IMAGE</h2>
+<!-- ￼Datei auswählen-->
+<div class="figure">
+<img src="teaser.jpg" alt="Feature image" />
+<p class="caption">Feature image</p>
+</div>
+<h2 id="project-specifics">PROJECT SPECIFICS</h2>
+<!--EXPLAIN YOUR SOLUTION-->
+<h1 id="introduction">Introduction</h1>
+<p>Air pollution is a problem in cities all around the globe. Emissions from traffic, buildings, industry and various other sources can have adverse health effects. Nowaday, many countries are actively trying to counter such problems with regulations. An important step for counter-measures is the measurement of the actual air quality. For example, the European Union developed measurement protocols and thresholds, which should not be exceeded and where actions have to be taken by the governments.</p>
+<p>One of the monitored pollutants is particulate matter: small particles that are taken up while breathing and have the ability to permeate into the bodies. The measurement and monitoring of such particles is usually done only at a few sites within the city, and there are significant delays until the measurement data is available publicly (implied by the official measurement protocol).</p>
+<p>In Stuttgart, the station Neckartor exhibits the highest measured concentrations within Germany.</p>
+<p>Therefore a citizen science project was created to build up a sensor network for PM measurements. The sensors are maintained by citizens at locations within and around the city. Hardware for the sensors has been selected and software was written to distribute and monitor the measurements within the network. Currently the sensors are mounted at fixed locations and the data is gathered in a central database.</p>
+<h2 id="goals-and-ideas">Goals and ideas</h2>
+<p>Within the challenge, two new components will be developed:</p>
+<ul>
+<li><strong>Mobile sensor</strong>: A GPS sensor will be added for measurements on-the-go</li>
+<li><strong>Visualisation</strong>: A map based visualisation of the most recent measurements</li>
+</ul>
+<p>Additionally, the following topics could be of interest:</p>
+<ul>
+<li>identify and add existing air quality data from external sources</li>
+<li>visualize the track data on a map, too</li>
+</ul>
+<h1 id="implementation">Implementation</h1>
+<h2 id="mobile-sensor">Mobile sensor</h2>
+<ul>
+<li>add GPS to existing sensor setup, see <a href="https://github.com/opendata-stuttgart/sensors-software/commit/58ff3fc409eb353f7f1e25051d55f153be9601b7">commit</a></li>
+<li>enable push GPS data to Django API (changes for GPS measurements see <a href="https://github.com/opendata-stuttgart/feinstaub-api/commit/6b0a1d20685b5e9dd3dcb351e9b0b8860465e8df">commit</a>) and/or via MQTT</li>
+</ul>
+<h2 id="visualisation">Visualisation</h2>
+<p>This map visualisation was hacked during the NASA Space-Apps challenge 2016 <a href="https://2016.spaceappschallenge.org/locations/stuttgart-germany" class="uri">https://2016.spaceappschallenge.org/locations/stuttgart-germany</a></p>
+<p>The necessary steps were:</p>
+<ul>
+<li>adapt the django API: request to get the latest measurement values</li>
+<li>create a map visualisation based on the API inputs</li>
+</ul>
+<p>Repository is located at <a href="https://github.com/opendata-stuttgart/feinstaub-map" class="uri">https://github.com/opendata-stuttgart/feinstaub-map</a></p>
+<h3 id="django-api-changes">Django API changes</h3>
+<p>mfa provided the changes to the API (see <a href="https://github.com/opendata-stuttgart/feinstaub-api/commit/3ebbce1b70d6454ff1371112fe14385c3d475b4b">commit</a>)</p>
+<h3 id="map-application">Map application</h3>
+<p>The map background is based on <a href="http://openstreetmap.org/">OpenStreetMap</a> provided via <a href="https://www.mapbox.com/">mapbox</a>. The application itself was created in JavaScript on top of a <a href="http://leafletjs.com/">leaflet</a> layer.</p>
+<p>The implemetation makes use of various frameworks and is on ECMA6 language level.</p>
+<!-- Used frameworks are:
+
+* [leaflet](http://leafletjs.com/) (mapping framework)
+* [d3](https://d3js.org/)
+* [lodash](https://lodash.com/) (map, reduce, reorder data sets)
+* [vue](http://vuejs.org/)
+* [webpack](https://webpack.github.io/) is used for deployment
+-->
+<h2 id="resources-used">RESOURCES USED</h2>
+<ul>
+<li>GPS sensor</li>
+<li>Particulate matter sensor device</li>
+</ul>
+<p>Used frameworks for the map visualisation are:</p>
+<ul>
+<li><a href="http://leafletjs.com/">leaflet</a> (mapping framework)</li>
+<li><a href="https://d3js.org/">d3</a></li>
+<li><a href="https://lodash.com/">lodash</a> (map, reduce, reorder data sets)</li>
+<li><a href="http://vuejs.org/">vue</a></li>
+<li><a href="https://webpack.github.io/">webpack</a> is used for deployment</li>
+</ul>
+<h2 id="solution-url">SOLUTION URL</h2>
+<p>￼<a href="https://github.com/opendata-stuttgart/feinstaub-map" class="uri">https://github.com/opendata-stuttgart/feinstaub-map</a> <!--https://github.com/nasa/space-apps.git--></p>
+<p>￼￼ ## TEAM ￼ Martin and rashfael</p>
+<div id="refs" class="references">
+
+</div>

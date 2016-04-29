@@ -322,7 +322,7 @@
        y="254.90646"
        x="91.746338"
        id="image3092"
-       xlink:href="file:///home/martin/hft/applications/finedust/feinstaub-map/challengesite/Beijing_smog_comparison_August_2005.png"
+       xlink:href="file://./Beijing_smog_comparison_August_2005.png"
        height="73.62175"
        width="196.32468" />
     <text
@@ -701,7 +701,7 @@
     <image
        width="113.28571"
        height="187.25766"
-       xlink:href="file:///home/martin/hft/applications/finedust/feinstaub-map/challengesite/PPD_DHT_deployed_BirkachMitteStra_.jpg"
+       xlink:href="file://./PPD_DHT_deployed_BirkachMitteStra_.jpg"
        id="image6577"
        x="73.357162"
        y="620.16193" />
@@ -765,14 +765,14 @@
     <image
        width="209.95753"
        height="114.81715"
-       xlink:href="file:///home/martin/hft/applications/finedust/feinstaub-map/challengesite/map_screenshot.png"
+       xlink:href="file://./map_screenshot.png"
        id="image6839"
        x="72.794579"
        y="887.85974" />
     <image
        width="201.54854"
        height="138.70831"
-       xlink:href="file:///home/martin/hft/applications/finedust/feinstaub-map/challengesite/pm_sensor_gps.jpg"
+       xlink:href="file://./pm_sensor_gps.jpg"
        id="image6904"
        x="391.46143"
        y="675.59033" />

@@ -7,7 +7,7 @@ https://2016.spaceappschallenge.org/challenges/earth/aircheck
 
 ## Goals and ideas
 
-* visualize recent sensor data on a map
+* visualise recent sensor data on a map
 * identify and add existing air quality data from external sources
 * gather air quality data on-the-go, develop a mobile solution, measure tracks
 * visualize the track data on a map, too
