@@ -2,7 +2,7 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:i="&amp;ns_ai;"
+   xmlns:i="&amp;#38;ns_ai;"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -274,57 +274,55 @@
        id="text2982"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan2984"
+         id="tspan3179"
          x="88.571426"
          y="75.219322"
-         style="font-size:20px">Particulate matter sensor network</tspan><tspan
+         style="font-size:22px">Particulate matter sensor network</tspan><tspan
          sodipodi:role="line"
+         id="tspan3181"
          x="88.571426"
-         y="100.21932"
-         id="tspan2990" /><tspan
+         y="90.219322"
+         style="font-size:22px"> — Crowd sourcing air quality —</tspan><tspan
          sodipodi:role="line"
+         id="tspan3183"
          x="88.571426"
-         y="117.24533"
-         id="tspan3006">NASA Space Apps Challenge 2016: Aircheck</tspan><tspan
+         y="105.21932" /><tspan
          sodipodi:role="line"
+         id="tspan3185"
          x="88.571426"
-         y="132.24533"
-         id="tspan2994">Location: Stuttgart</tspan><tspan
+         y="120.21932">NASA Space Apps Challenge 2016: Aircheck</tspan><tspan
          sodipodi:role="line"
+         id="tspan3187"
          x="88.571426"
-         y="147.24533"
-         id="tspan3000" /><tspan
+         y="135.21933">Location: Stuttgart</tspan><tspan
          sodipodi:role="line"
+         id="tspan3189"
          x="88.571426"
-         y="162.24533"
-         id="tspan3008" /><tspan
+         y="150.21931" /><tspan
          sodipodi:role="line"
+         id="tspan3191"
          x="88.571426"
-         y="177.24533"
-         id="tspan3002">2016.spaceappschallenge.org/locations/stuttgart-germany</tspan><tspan
+         y="165.21931" /><tspan
          sodipodi:role="line"
+         id="tspan3193"
          x="88.571426"
-         y="192.24533"
-         id="tspan2992">2016.spaceappschallenge.org/challenges/earth/aircheck</tspan><tspan
+         y="180.21931" /><tspan
          sodipodi:role="line"
+         id="tspan3195"
          x="88.571426"
-         y="207.24533"
-         id="tspan3010" /><tspan
+         y="195.21931" /><tspan
          sodipodi:role="line"
+         id="tspan3197"
          x="88.571426"
-         y="222.24533"
-         id="tspan3012" /><tspan
-         sodipodi:role="line"
-         x="88.571426"
-         y="237.24533"
-         id="tspan2998" /></text>
+         y="210.21931">—</tspan></text>
     <image
-       y="254.90646"
-       x="91.746338"
-       id="image3092"
-       xlink:href="file://./Beijing_smog_comparison_August_2005.png"
+       sodipodi:absref="/home/martin/hft/applications/finedust/feinstaub-map/challengesite/Beijing_smog_comparison_August_2005.png"
+       xlink:href="Beijing_smog_comparison_August_2005.png"
+       width="196.32468"
        height="73.62175"
-       width="196.32468" />
+       id="image3092"
+       x="91.746338"
+       y="254.90646" />
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -699,12 +697,13 @@
          style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#StopL);marker-end:url(#StopL)" />
     </g>
     <image
-       width="113.28571"
-       height="187.25766"
-       xlink:href="file://./PPD_DHT_deployed_BirkachMitteStra_.jpg"
-       id="image6577"
+       sodipodi:absref="/home/martin/hft/applications/finedust/feinstaub-map/challengesite/PPD_DHT_deployed_BirkachMitteStra_.jpg"
+       xlink:href="PPD_DHT_deployed_BirkachMitteStra_.jpg"
+       y="620.16193"
        x="73.357162"
-       y="620.16193" />
+       id="image6577"
+       height="187.25766"
+       width="113.28571" />
     <text
        sodipodi:linespacing="125%"
        id="text6580"
@@ -763,19 +762,21 @@
          id="tspan6737"
          sodipodi:role="line" /></text>
     <image
-       width="209.95753"
-       height="114.81715"
-       xlink:href="file://./map_screenshot.png"
-       id="image6839"
+       sodipodi:absref="/home/martin/hft/applications/finedust/feinstaub-map/challengesite/map_screenshot.png"
+       xlink:href="map_screenshot.png"
+       y="887.85974"
        x="72.794579"
-       y="887.85974" />
+       id="image6839"
+       height="114.81715"
+       width="209.95753" />
     <image
-       width="201.54854"
-       height="138.70831"
-       xlink:href="file://./pm_sensor_gps.jpg"
-       id="image6904"
+       sodipodi:absref="/home/martin/hft/applications/finedust/feinstaub-map/challengesite/pm_sensor_gps.jpg"
+       xlink:href="pm_sensor_gps.jpg"
+       y="675.59033"
        x="391.46143"
-       y="675.59033" />
+       id="image6904"
+       height="138.70831"
+       width="201.54854" />
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"

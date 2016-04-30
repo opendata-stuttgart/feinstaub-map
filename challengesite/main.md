@@ -2,6 +2,8 @@
 
 * Challenge: [Aircheck](https://2016.spaceappschallenge.org/challenges/earth/aircheck)
 
+* This project is now available/online: https://2016.spaceappschallenge.org/challenges/earth/aircheck/projects/particulate-matter-sensor-network
+
 <!--CREATE YOUR PROJECT SOLUTION
 
 in response to
@@ -16,6 +18,12 @@ Particulate matter sensor network
 <!--Our Great Solution...-->
 
 ## SOLUTION VIDEO
+
+https://youtu.be/a_cEQHYuSfs
+https://www.youtube.com/watch?v=a_cEQHYuSfs
+
+Long version (Sunday 1800):
+https://www.youtube.com/watch?v=tez2J-pFUZU
 
 TBD, use the [presentation partmattsensnet_in_30sec.html](./partmattsensnet_in_30sec.html).
 
