@@ -16,7 +16,7 @@ let api = {
 					sensor.location.latitude != null &&
 					sensor.location.longitude != null &&
 					sensor.sensor.sensor_type.name == "PPD42NS" &&
-					sensor.sensordatavalues.length == 6
+					sensor.sensordatavalues.length >= 6
 				)
 				.groupBy((sensor) => sensor.sensor.id)
 				.map((values, key) => {
