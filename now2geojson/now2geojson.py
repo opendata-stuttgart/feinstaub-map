@@ -44,7 +44,7 @@ for sen in j:
                             (lon,lat)
                         ]])
     else:
-        p=geojson.Point(lon,lat)
+        p=geojson.Point((lon,lat))
     # assemble properties
     prop={}
     prop['sensorid']=sen['sensor']['id']
