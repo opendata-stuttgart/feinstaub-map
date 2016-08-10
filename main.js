@@ -30728,7 +30728,7 @@
 		getAllSensors: function getAllSensors() {
 			return api.fetchNow().then(function (json) {
 				var cells = _lodash2.default.chain(json).filter(function (sensor) {
-					return sensor.location.latitude != null && sensor.location.longitude != null && sensor.sensor.sensor_type.name == "PPD42NS" && sensor.sensordatavalues.length >= 6;
+					return sensor.location.latitude != null && sensor.location.longitude != null && (sensor.sensor.sensor_type.name == "PPD42NS" && sensor.sensordatavalues.length >= 6 || sensor.sensor.sensor_type.name == "SDS011" && sensor.sensordatavalues.length >= 5);
 				}).groupBy(function (sensor) {
 					return sensor.sensor.id;
 				}).map(function (values, key) {
