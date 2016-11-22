@@ -30,8 +30,7 @@ export default {
 					this.$emit('cell-selected', data)
 				},
 				mouseout: () => {
-				},
-				colorRange: ['green', 'red']
+				}
 			}
 
 			let hexLayer = new leaflet.HexbinLayer(options).addTo(map)

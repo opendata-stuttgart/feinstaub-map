@@ -14,10 +14,9 @@ let api = {
 			let cells = _.chain(json)
 				.filter((sensor) =>
 					sensor.location.latitude != null &&
-					sensor.location.longitude != null &&
-					((sensor.sensor.sensor_type.name == "PPD42NS" &&
-					sensor.sensordatavalues.length >= 6) || (sensor.sensor.sensor_type.name == "SDS011" &&
-					sensor.sensordatavalues.length >= 5))
+					sensor.location.longitude != null && (
+					// (sensor.sensor.sensor_type.name == "PPD42NS" && sensor.sensordatavalues.length >= 6) ||
+					(sensor.sensor.sensor_type.name === 'SDS011' && sensor.sensordatavalues.length >= 5))
 				)
 				.groupBy((sensor) => sensor.sensor.id)
 				.map((values, key) => {
