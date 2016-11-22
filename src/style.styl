@@ -1,25 +1,29 @@
-@import './_settings'
-@import './_material_color'
-
+@import '_settings'
+variables()
 normalize-css()
 base()
 typography()
+components()
 
-
-body
-	background-color clr-grey-50
-	display flex
-	justify-content column
+body, #content
+	height 100%
+	width 100%
+	margin 0
 	overflow hidden
 
+#content
+	background-color $clr-grey-50
+	display flex
+	justify-content column
+	
 .map
 	height 100vh
 	flex 1 0
 
 #cell-info
 	width 15rem
-	background-color clr-blue-grey-900
-	color clr-grey-50
+	background-color $clr-blue-grey-900
+	color $clr-grey-50
 	padding .5rem
 	// overflow-y scroll
 	height 100vh
@@ -35,9 +39,9 @@ body
 		text-align right
 	th
 		font-weight 300
-		border-bottom 2px solid clr-grey-50
+		border-bottom 2px solid $clr-grey-50
 	.mean
-		border-bottom 1px solid clr-grey-50
+		border-bottom 1px solid $clr-grey-50
 
 .leaflet-pane > svg .d3-overlay path
 	pointer-events all
@@ -47,8 +51,8 @@ body
 	font-size 0.4rem
 
 	border-radius 3px
-	background-color clr-blue-grey-900
-	color clr-grey-50
+	background-color $clr-blue-grey-900
+	color $clr-grey-50
 	z-index 500
 	font-weight 200
 	text-align right

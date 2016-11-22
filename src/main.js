@@ -1,8 +1,7 @@
 import Vue from 'vue'
-import App from './App'
+import Main from './main.vue'
+import './style.styl'
 
 /* eslint-disable no-new */
-new Vue({
-  el: 'body',
-  components: { App }
-})
+
+new Vue(Main).$mount('#v-app')
