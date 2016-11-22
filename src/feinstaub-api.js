@@ -1,4 +1,4 @@
-const URL = 'https://api.luftdaten.info/v1/now/'
+const URL = 'https://www.madavi.de/sensor/feinstaub-map-sds/data.json'
 import _ from 'lodash'
 
 let api = {
