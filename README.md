@@ -60,4 +60,4 @@ npm start
 
 ### Publish
 
-npm run deploy
+npm run ghpages
