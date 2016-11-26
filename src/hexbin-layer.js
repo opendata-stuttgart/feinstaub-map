@@ -195,6 +195,7 @@ L.HexbinLayer = L.Layer.extend({
 			.attr('stroke-opacity', 0.01)
 			.on('mouseover', this.options.mouseover)
 			.on('mouseout', this.options.mouseout)
+			.on('click', this.options.click)
 			.transition().duration(this.options.duration)
 				.attr('fill-opacity', this.options.opacity)
 				.attr('stroke-opacity', this.options.opacity)

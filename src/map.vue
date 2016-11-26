@@ -30,6 +30,9 @@ export default {
 					this.$emit('cell-selected', data)
 				},
 				mouseout: () => {
+				},
+				click: (data) => {
+					this.$emit('cell-selected', data)
 				}
 			}
 

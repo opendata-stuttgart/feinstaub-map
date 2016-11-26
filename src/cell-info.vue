@@ -4,8 +4,8 @@
 	table
 		tr
 			th
-			th P1
-			th P2
+			th PM10
+			th PM2.5
 		tr.mean
 			td mean
 			td {{mean.P1.toFixed(2)}}
