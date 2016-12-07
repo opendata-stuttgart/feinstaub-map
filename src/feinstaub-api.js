@@ -1,5 +1,6 @@
 const URL = 'https://www.madavi.de/sensor/feinstaub-map-sds/data.json'
 import _ from 'lodash'
+import 'whatwg-fetch'
 
 let api = {
 	fetchNow() {
