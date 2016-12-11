@@ -4,10 +4,6 @@
 	
 	table
 		tr
-			th Grenze
-			th 50µgr
-			th
-		tr
 			th
 			th PM10
 			th PM2.5
