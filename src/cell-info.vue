@@ -1,8 +1,12 @@
 <template lang="jade">
 #cell-info(v-if="cell")
-	h3 #Sensors {{cell.length}} #Grenzwert: 50µgr/Kubikmeter
+	h3 #Sensors {{cell.length}}
 	
 	table
+		tr
+			th Grenze
+			th 50µgr
+			th
 		tr
 			th
 			th PM10
