@@ -4,7 +4,7 @@
 	
 	table
 		tr
-			th
+			th µgr/m^3
 			th PM10
 			th PM2.5
 		tr.mean
