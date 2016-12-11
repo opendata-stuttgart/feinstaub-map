@@ -3,7 +3,7 @@
 	h3 #Sensors {{cell.length}}
 	
 	table
-	#Grenzwert: 50µgr/Kubikmeter
+	h3 #Grenzwert: 50µgr/Kubikmeter
 		tr
 			th
 			th PM10
