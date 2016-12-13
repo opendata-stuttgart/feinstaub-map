@@ -622,7 +622,49 @@
 	margin-left: -12px;
 	border-right-color: #fff;
 	}
-html {
+/*valueDomain: [20, 40, 60, 90],
+colorRange: ['#00796B', '#F9A825', '#E65100', '#DD2C00'],*/
+#legend {
+  position: fixed;
+  left: 12px;
+  bottom: 12px;
+  z-index: 1000;
+  pointer-events: none;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#legend .gradient {
+  opacity: 0.6;
+  width: 20px;
+  background: -webkit-linear-gradient(bottom, #00796b 0%, #00796b 20%, #f9a825 40%, #e65100 60%, #dd2c00 90%, #dd2c00 100%);
+  background: linear-gradient(to top, #00796b 0%, #00796b 20%, #f9a825 40%, #e65100 60%, #dd2c00 90%, #dd2c00 100%);
+  position: relative;
+}
+#legend .gradient .limit {
+  height: 2px;
+  width: 42px;
+  background-color: #d50000;
+  position: absolute;
+  left: -10px;
+  bottom: calc(50% - 1px);
+}
+#legend .labels {
+  width: 150px;
+  position: relative;
+}
+#legend .labels .label {
+  position: absolute;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+#legend .labels .label:before {
+  content: '\2013   ';
+}
+#legend .labels .label.limit {
+  color: #d50000;
+}html {
   font-size: 14px;
   font-size: 87.5%;
 }
