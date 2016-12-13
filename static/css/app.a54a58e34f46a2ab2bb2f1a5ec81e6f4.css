@@ -1628,7 +1628,7 @@ body,
   background-color: #263238;
   color: #fafafa;
   padding: 0.5rem;
-  overflow-x: scroll;
+  overflow-y: auto;
   height: 100vh;
   font-size: 1.5rem;
 }
