@@ -626,23 +626,32 @@
 colorRange: ['#00796B', '#F9A825', '#E65100', '#DD2C00'],*/
 #legend {
   position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 225px;
+  width: 100px;
+  z-index: 1000;
+  background-color: rgba(238,238,238,0.6);
+}
+#legend-inner {
+  position: fixed;
   left: 12px;
   bottom: 12px;
-  z-index: 1000;
+  z-index: 1001;
   pointer-events: none;
   height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-#legend .gradient {
+#legend-inner .gradient {
   opacity: 0.6;
   width: 20px;
   background: -webkit-linear-gradient(bottom, #00796b 0%, #00796b 20%, #f9a825 40%, #e65100 60%, #dd2c00 90%, #dd2c00 100%);
   background: linear-gradient(to top, #00796b 0%, #00796b 20%, #f9a825 40%, #e65100 60%, #dd2c00 90%, #dd2c00 100%);
   position: relative;
 }
-#legend .gradient .limit {
+#legend-inner .gradient .limit {
   height: 2px;
   width: 42px;
   background-color: #d50000;
@@ -650,19 +659,19 @@ colorRange: ['#00796B', '#F9A825', '#E65100', '#DD2C00'],*/
   left: -10px;
   bottom: calc(50% - 1px);
 }
-#legend .labels {
+#legend-inner .labels {
   width: 150px;
   position: relative;
 }
-#legend .labels .label {
+#legend-inner .labels .label {
   position: absolute;
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
 }
-#legend .labels .label:before {
+#legend-inner .labels .label:before {
   content: '\2013   ';
 }
-#legend .labels .label.limit {
+#legend-inner .labels .label.limit {
   color: #d50000;
 }html {
   font-size: 14px;
