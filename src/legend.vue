@@ -1,13 +1,14 @@
 <template lang="jade">
 #legend
-	.gradient
-		.limit
-	.labels
-		.label(style="bottom: 100%") 100
-		.label(style="bottom: 75%") 75
-		.label.limit(style="bottom: 50%") 50
-		.label(style="bottom: 25%") 25
-		.label(style="bottom: 0%") 0 µg/m³
+	#legend-inner
+		.gradient
+			.limit
+		.labels
+			.label(style="bottom: 100%") 100
+			.label(style="bottom: 75%") 75
+			.label.limit(style="bottom: 50%") 50
+			.label(style="bottom: 25%") 25
+			.label(style="bottom: 0%") 0 µg/m³
 </template>
 <script>
 export default {
@@ -31,9 +32,17 @@ export default {
 colorRange: ['#00796B', '#F9A825', '#E65100', '#DD2C00'],*/
 #legend
 	position fixed
+	left 0
+	bottom 0
+	height 225px
+	width 100px
+	z-index 1000
+	background-color alpha($clr-grey-200, 0.6)
+#legend-inner
+	position fixed
 	left 12px
 	bottom 12px
-	z-index 1000
+	z-index 1001
 	pointer-events none
 	height 200px
 	display flex
