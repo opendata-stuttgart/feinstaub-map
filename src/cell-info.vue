@@ -1,9 +1,10 @@
 <template lang="jade">
 #cell-info(v-if="cell")
 	h3 #Sensors {{cell.length}}
+	
 	table
 		tr
-			th
+			th µg/m³
 			th PM10
 			th PM2.5
 		tr.mean
