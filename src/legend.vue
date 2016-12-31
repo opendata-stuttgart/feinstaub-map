@@ -4,10 +4,12 @@
 		.gradient
 			.limit
 		.labels
-			.label(style="bottom: 100%") 100
-			.label(style="bottom: 75%") 75
-			.label.limit(style="bottom: 50%") 50
-			.label(style="bottom: 25%") 25
+			.label(style="bottom: 100%") 500
+			.label(style="bottom: 75%") 200
+			.label(style="bottom: 50%") 100
+			.label(style="bottom: 37.5%") 75
+			.label.limit(style="bottom: 25%") 50
+			.label(style="bottom: 12.5%") 25
 			.label(style="bottom: 0%") 0 µg/m³
 </template>
 <script>
@@ -49,7 +51,7 @@ colorRange: ['#00796B', '#F9A825', '#E65100', '#DD2C00'],*/
 	.gradient
 		opacity 0.6
 		width 20px
-		background linear-gradient(to top, rgba(0,121,107,1) 0%, rgba(0,121,107,1) 20%, rgba(249,168,37,1) 40%, rgba(230,81,0,1) 60%, rgba(221,44,0,1) 90%, rgba(221,44,0,1) 100%)
+		background linear-gradient(to top, rgba(0,121,107,1) 0%, rgba(0,121,107,1) 10%, rgba(249,168,37,1) 20%, rgba(230,81,0,1) 30%, rgba(221,44,0,1) 45%, rgba(221,44,0,1) 50%, rgba(96,0,84,1) 75%, rgba(0,19,96,1) 100%)
 		position relative
 		.limit
 			height 2px
@@ -57,7 +59,7 @@ colorRange: ['#00796B', '#F9A825', '#E65100', '#DD2C00'],*/
 			background-color $clr-red-a700
 			position absolute
 			left -10px
-			bottom calc(50% - 1px)
+			bottom calc(25% - 1px)
 	.labels
 		width 150px
 		position relative
