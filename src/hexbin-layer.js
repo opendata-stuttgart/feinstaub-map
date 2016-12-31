@@ -12,8 +12,8 @@ L.HexbinLayer = L.Layer.extend({
 		radius: 25,
 		opacity: 0.6,
 		duration: 200,
-		valueDomain: [20, 40, 60, 90],
-		colorRange: ['#00796B', '#F9A825', '#E65100', '#DD2C00'],
+		valueDomain: [20, 40, 60, 90, 200, 500],
+		colorRange: ['#00796B', '#F9A825', '#E65100', '#DD2C00', '#960084', '#001996'],
 
 		onmouseover: undefined,
 		onmouseout: undefined,
