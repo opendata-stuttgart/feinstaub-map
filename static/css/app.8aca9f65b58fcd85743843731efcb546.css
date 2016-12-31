@@ -647,8 +647,8 @@ colorRange: ['#00796B', '#F9A825', '#E65100', '#DD2C00'],*/
 #legend-inner .gradient {
   opacity: 0.6;
   width: 20px;
-  background: -webkit-linear-gradient(bottom, #00796b 0%, #00796b 20%, #f9a825 40%, #e65100 60%, #dd2c00 90%, #dd2c00 100%);
-  background: linear-gradient(to top, #00796b 0%, #00796b 20%, #f9a825 40%, #e65100 60%, #dd2c00 90%, #dd2c00 100%);
+  background: -webkit-linear-gradient(bottom, #00796b 0%, #00796b 10%, #f9a825 20%, #e65100 30%, #dd2c00 45%, #dd2c00 50%, #600054 75%, #001360 100%);
+  background: linear-gradient(to top, #00796b 0%, #00796b 10%, #f9a825 20%, #e65100 30%, #dd2c00 45%, #dd2c00 50%, #600054 75%, #001360 100%);
   position: relative;
 }
 #legend-inner .gradient .limit {
@@ -657,7 +657,7 @@ colorRange: ['#00796B', '#F9A825', '#E65100', '#DD2C00'],*/
   background-color: #d50000;
   position: absolute;
   left: -10px;
-  bottom: calc(50% - 1px);
+  bottom: calc(25% - 1px);
 }
 #legend-inner .labels {
   width: 150px;
