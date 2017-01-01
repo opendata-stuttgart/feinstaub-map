@@ -48,7 +48,7 @@ colorRange: ['#00796B', '#F9A825', '#E65100', '#DD2C00'],*/
 	height 200px
 	display flex
 	.gradient
-		opacity 0.6
+		opacity 0.8
 		width 20px
 		background linear-gradient(to top, rgba(0,121,107,1) 0%, rgba(0,121,107,1) 16%, rgba(249,168,37,1) 32%, rgba(230,81,0,1) 48%, rgba(221,44,0,1) 72%, rgba(221,44,0,1) 80%, rgba(140,0,132,1) 100%)
 		position relative
