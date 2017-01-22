@@ -15,8 +15,8 @@ export default {
 				center: config.center,
 				zoom: 11
 			})
-			leaflet.tileLayer('http://{s}.tiles.madavi.de/{z}/{x}/{y}.png', {
-				attribution: 'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
+			leaflet.tileLayer('https://{s}.tiles.madavi.de/{z}/{x}/{y}.png', {
+				attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
 				maxZoom: 13,
 				// continuousWorld: false,
 				// noWrap: true
