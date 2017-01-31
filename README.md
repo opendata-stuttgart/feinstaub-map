@@ -66,5 +66,6 @@ npm start
 ### Publish
 
 ```
+npm run build
 npm run ghpages
 ```
