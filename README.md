@@ -52,12 +52,19 @@ Used frameworks are:
 
 ### Installation
 
+```
 npm install
+cp config.js.dist config.js
+```
 
 ### Develop
 
+```
 npm start
+```
 
 ### Publish
 
+```
 npm run ghpages
+```
