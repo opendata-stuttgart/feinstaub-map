@@ -13,11 +13,11 @@ export default {
 		this.$nextTick(() => {
 			let map = leaflet.map(this.$el, {
 				center: config.center,
-				zoom: 11
+				zoom: config.zoom
 			})
 			leaflet.tileLayer('https://{s}.tiles.madavi.de/{z}/{x}/{y}.png', {
 				attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
-				maxZoom: 13,
+				maxZoom: 14,
 				// continuousWorld: false,
 				// noWrap: true
 
