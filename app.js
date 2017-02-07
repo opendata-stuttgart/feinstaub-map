@@ -38509,7 +38509,7 @@ exports.default = {
 				center: _config2.default.center,
 				zoom: 11
 			});
-			_leaflet2.default.tileLayer('https://{s}.tiles.madavi.de/{z}/{x}/{y}.png', {
+			_leaflet2.default.tileLayer('https://{s}.tiles.luftdaten.info/{z}/{x}/{y}.png', {
 				attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
 				maxZoom: 13
 			}).addTo(map);
