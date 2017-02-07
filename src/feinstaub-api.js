@@ -1,4 +1,4 @@
-const URL = 'https://www.madavi.de/sensor/feinstaub-map-sds/data.json'
+const URL = 'https://api.luftdaten.info/static/v1/data.json'
 import _ from 'lodash'
 import 'whatwg-fetch'
 
@@ -17,7 +17,8 @@ let api = {
 					sensor.location.latitude != null &&
 					sensor.location.longitude != null && (
 					// (sensor.sensor.sensor_type.name == "PPD42NS" && sensor.sensordatavalues.length >= 6) ||
-					(sensor.sensor.sensor_type.name === 'SDS011' && sensor.sensordatavalues.length >= 5))
+					(sensor.sensor.sensor_type.name == "PMS3003" && sensor.sensordatavalues.length >= 2) ||
+					(sensor.sensor.sensor_type.name === 'SDS011' && sensor.sensordatavalues.length >= 2))
 				)
 				.groupBy((sensor) => sensor.sensor.id)
 				.map((values, key) => {
