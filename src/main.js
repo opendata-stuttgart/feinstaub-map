@@ -53,7 +53,10 @@ if (query.center) {
 	towns["rostock"] = [54.083333333333,12.133333333333];
 	towns["ulm"] = [48.3843119,10.000000];
 	towns["wismar"] = [53.888213888889,11.462016666667];
-	towns["wuppertal"] = [51.259166666667,7.2111111111111];	
+	towns["wuppertal"] = [51.259166666667,7.2111111111111];
+	towns["reutlingen"] = [48.4912203,9.208576];	
+	towns["tuebingen"] = [48.5197257,8.998209];	
+	towns["boeblingen"] = [48.6851035,9.0090113];
 
 //	Schweiz
 	towns["schweiz"] = [46.8,8.2333333333333]; zooms["schweiz"] = 8;
