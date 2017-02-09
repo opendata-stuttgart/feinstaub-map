@@ -9,12 +9,12 @@
 			th PM2.5
 		tr.mean
 			td mean
-			td {{mean.P1.toFixed(2)}}
-			td {{mean.P2.toFixed(2)}}
+			td {{mean.P1.toFixed(0)}}
+			td {{mean.P2.toFixed(0)}}
 		tr(v-for="sensor in cell")
 			td {{sensor.o.id}}
-			td {{sensor.o.data.P1.toFixed(2)}}
-			td {{sensor.o.data.P2.toFixed(2)}}
+			td {{sensor.o.data.P1.toFixed(0)}}
+			td {{sensor.o.data.P2.toFixed(0)}}
 </template>
 <script>
 import _ from 'lodash'
