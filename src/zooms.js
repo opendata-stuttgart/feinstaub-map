@@ -26,6 +26,8 @@ module.exports = {
 		"schweiz": 8,
 
 		"poland": 6,
+		"bulgaria": 7,
 		"hungary": 7,
 		"taiwan": 8
+		
 }

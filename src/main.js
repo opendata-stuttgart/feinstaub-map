@@ -30,7 +30,9 @@ if (query.center) {
 	console.log("Center: "+config.center);
 	console.log("Zoom: "+config.zoom)
 }
-
+if (query.zoom) {
+	config.zoom = parseInt(query.zoom)
+}  
 /* eslint-disable no-new */
 
 new Vue(Main).$mount('#v-app')
