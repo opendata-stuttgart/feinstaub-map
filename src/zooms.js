@@ -1,4 +1,9 @@
 module.exports = {
+	
+		"world": 2,
+		
+		"europe": 4,
+		
 //	Germany
 		"deutschland": 6,
 		"baden-wuerttemberg": 8,
@@ -32,6 +37,12 @@ module.exports = {
 		"sofia": 12,
 
 		"hungary": 7,
+		
+//	Italy
+		"italy": 6,
+		"sicily": 8,
+		
+//	Taiwan
 		"taiwan": 8
 		
 }

@@ -17,7 +17,7 @@ export default {
 			})
 			leaflet.tileLayer('https://{s}.tiles.madavi.de/{z}/{x}/{y}.png', {
 				attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
-				maxZoom: 14,
+				maxZoom: 13,
 				// continuousWorld: false,
 				// noWrap: true
 

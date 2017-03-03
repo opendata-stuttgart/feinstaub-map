@@ -1,4 +1,4 @@
-const URL = 'https://api.luftdaten.info/static/v1/data.json'
+const URL = 'https://api.luftdaten.info/static/v2/data.dust.min.json'
 import _ from 'lodash'
 import 'whatwg-fetch'
 
