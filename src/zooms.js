@@ -18,7 +18,9 @@ module.exports = {
 		"sachsen": 9,
 		"sachsen-anhalt": 8,
 		"schleswig-holstein": 8,
-		"thueringen": 8,	
+		"thueringen": 8,
+		
+		"ruhrgebiet": 9,
 		
 //	France
 		"france": 6,
