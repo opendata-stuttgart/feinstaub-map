@@ -26,11 +26,13 @@ export default {
 			let options = {
 				mouseover: (data) => {
 					this.$emit('cell-selected', data)
+					document.getElementById("cell-info").style.display = ""
 				},
 				mouseout: () => {
 				},
 				click: (data) => {
 					this.$emit('cell-selected', data)
+					document.getElementById("cell-info").style.display = ""
 				}
 			}
 

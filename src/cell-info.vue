@@ -1,5 +1,7 @@
 <template lang="jade">
 #cell-info(v-if="cell")
+	a(href='#' onclick='document.getElementById("cell-info").style.display="none";return false;' style='color:white') (close)
+
 	h3 #Sensors {{cell.length}}
 	
 	table
