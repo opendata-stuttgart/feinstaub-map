@@ -43,6 +43,7 @@ module.exports = {
 	"italy": 6,
 	"sicily": 8,
 		
+	"denmark": 7,
 	"hungary": 7,
 	"netherlands": 7,
 	"poland": 6,

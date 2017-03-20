@@ -274,6 +274,7 @@ module.exports = {
 	"palermo": [38.115833,13.361389],
 
 //  country level maps
+	"denmark": [56,11],
 	"netherlands": [51.6,5.566667],
 	"taiwan": [23.62985,121.05317],
 	"thailand": [15.4,101.3]
