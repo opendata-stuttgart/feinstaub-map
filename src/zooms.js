@@ -48,6 +48,7 @@ module.exports = {
 	"netherlands": 7,
 	"poland": 6,
 	"taiwan": 8,
-	"thailand": 5
+	"thailand": 5,
+	"usa": 4
 		
 }

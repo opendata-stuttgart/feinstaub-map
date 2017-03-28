@@ -273,6 +273,10 @@ module.exports = {
 	"sicily": [37.566667,14.266667],
 	"palermo": [38.115833,13.361389],
 
+//	USA
+	"usa":	[40,-100],
+	"portland": [45.52,-122.681944],
+
 //  country level maps
 	"denmark": [56,11],
 	"netherlands": [51.6,5.566667],
