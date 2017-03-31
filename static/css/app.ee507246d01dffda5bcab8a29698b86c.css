@@ -1693,12 +1693,19 @@ body,
 #cell-info table {
   width: 100%;
   margin-right: 1rem;
+  border-collapse: collapse;
+  border-bottom: 1px solid #fafafa;
 }
 #cell-info td {
   text-align: right;
+  padding-right: 5px;
+  border-width: 0px 1px 0px 1px;
+  border-style: solid;
+  border-color: #fafafa;
 }
 #cell-info th {
   font-weight: 300;
+  border: 1px solid #fafafa;
   border-bottom: 2px solid #fafafa;
 }
 #cell-info .mean {
