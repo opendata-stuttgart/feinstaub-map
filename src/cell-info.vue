@@ -6,15 +6,16 @@
 	
 	table
 		tr
-			th µg/m³
-			th PM10
-			th PM2.5
+			th Sensor ID
+			th PM10 µg/m³
+			th PM2.5 µg/m³
 		tr.mean
 			td mean
 			td {{mean.P1.toFixed(0)}}
 			td {{mean.P2.toFixed(0)}}
 		tr(v-for="sensor in cell")
-			td {{sensor.o.id}}
+			td
+				a(href='#' onclick='' style='color:white') {{sensor.o.id}}
 			td {{sensor.o.data.P1.toFixed(0)}}
 			td {{sensor.o.data.P2.toFixed(0)}}
 </template>

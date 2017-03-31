@@ -35,10 +35,17 @@ body, #content
 	table
 		width 100%
 		margin-right 1rem
+		border-collapse collapse
+		border-bottom 1px solid $clr-grey-50
 	td
 		text-align right
+		padding-right 5px
+		border-width 0px 1px 0px 1px;
+		border-style solid;
+		border-color $clr-grey-50;
 	th
 		font-weight 300
+		border 1px solid $clr-grey-50
 		border-bottom 2px solid $clr-grey-50
 	.mean
 		border-bottom 1px solid $clr-grey-50
@@ -58,5 +65,5 @@ body, #content
 	text-align right
 
 img.leaflet-tile 
-	filter: grayscale(85%) saturate(150%) hue-rotate(60deg) contrast(90%) brightness(110%);
+	filter  grayscale(85%) saturate(150%) hue-rotate(60deg) contrast(90%) brightness(110%) 
  
