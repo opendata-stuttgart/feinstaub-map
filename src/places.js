@@ -260,6 +260,10 @@ module.exports = {
 	"bulgaria": [42.65,25.4],
 	"sofia": [42.697222,23.323333],
 
+//	Belgien
+	"belgium": [50.8,4],
+	"brussels": [50.833333,4.4],
+
 //	Poland
 	"poland": [52.146944444444,19.378055555556],
 	"wroclaw": [51.11,17.032222222222],
@@ -272,10 +276,17 @@ module.exports = {
 	"italy": [42,12],
 	"sicily": [37.566667,14.266667],
 	"palermo": [38.115833,13.361389],
+	"bologna": [44.493889,11.342778],
 
 //	USA
 	"usa":	[40,-100],
 	"portland": [45.52,-122.681944],
+
+//	Vereinigte Arabische Emirate
+	"united-arab-emirates": [24,54],
+	"uae": [24,54],
+	"dubai": [25.266667,55.3],
+	
 
 //  country level maps
 	"denmark": [56,11],

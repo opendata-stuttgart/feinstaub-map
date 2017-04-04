@@ -42,13 +42,17 @@ module.exports = {
 //	Italy
 	"italy": 6,
 	"sicily": 8,
-		
+
+	"belgium": 8,
 	"denmark": 7,
 	"hungary": 7,
 	"netherlands": 7,
 	"poland": 6,
 	"taiwan": 8,
 	"thailand": 5,
-	"usa": 4
+	"usa": 4,
+	"united-arab-emirates": 7,
+	"uae": 7,
+	"dubai": 10
 		
 }
