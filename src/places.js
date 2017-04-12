@@ -263,6 +263,11 @@ module.exports = {
 //	Belgien
 	"belgium": [50.8,4],
 	"brussels": [50.833333,4.4],
+	
+//	Finnland
+	"finland": [65,26],
+	"helsinki": [60.166667,24.933333],
+	"turku": [60.45,22.266667],
 
 //	Poland
 	"poland": [52.146944444444,19.378055555556],
