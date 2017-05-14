@@ -58,7 +58,7 @@ colorRange: ['#00796B', '#F9A825', '#E65100', '#DD2C00'],*/
 			background-color $clr-red-a700
 			position absolute
 			left -10px
-			bottom calc(40% - 1px)
+			bottom calc(39% - 0px)
 	.labels
 		width 150px
 		position relative
