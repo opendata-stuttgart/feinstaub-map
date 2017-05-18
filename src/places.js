@@ -232,6 +232,7 @@ module.exports = {
 	"paris": [48.856667,2.351667],
 	"alsace": [48.249051944444,7.5280580555556],
 	"strasbourg": [48.583611111111,7.7480555555556],
+	"grenoble": [45.2002,5.7222],
 
 //	Oesterreich
 	"oesterreich": [47.6,13.783333],
@@ -259,6 +260,20 @@ module.exports = {
 //	Bulgarien
 	"bulgaria": [42.65,25.4],
 	"sofia": [42.697222,23.323333],
+	"pernik":[42.6,23.033333],
+	"varna": [43.210278,27.909722],
+	"plovdiv": [42.15,24.75],
+	"burgas": [42.495306,27.471722],
+	"velikotarnovo": [43.085833,25.655556],
+	"ruse": [43.856389,25.970556],
+	"silistra": [44.116667,27.266667],
+	"starazagora": [42.42,25.63],
+	"vidin": [43.991111,22.882222],
+	"montana": [43.4125,23.225],
+	"pleven": [43.42,24.62],
+	"haskovo": [41.933333,25.566667],
+	"kardzhali": [41.65,25.366667],
+	"dimitrovgrad": [42.05,25.6],
 
 //	Belgien
 	"belgium": [50.8,4],
@@ -275,6 +290,7 @@ module.exports = {
 
 //	Hungary
 	"hungary": [47,20],
+	"budapest": [47.5,19.05],
 	"szeged": [46.255,20.145],
 
 //	Italy
@@ -283,16 +299,26 @@ module.exports = {
 	"florence": [43.783333,11.25],
 	"palermo": [38.115833,13.361389],
 	"bologna": [44.493889,11.342778],
+	
+//	Romania
+	"romania": [46,25],
+	"bucharest": [44.416667,26.1],
 
 //	USA
 	"usa":	[40,-100],
 	"portland": [45.52,-122.681944],
 
+//	Chile
+	"chile": [-38,-71],
+	"santiago": [-33.46,-70.6],
+
 //	Vereinigte Arabische Emirate
 	"united-arab-emirates": [24,54],
 	"uae": [24,54],
 	"dubai": [25.266667,55.3],
-	
+
+//	Brunei
+	"brunei": [4.6,114.7],
 
 //  country level maps
 	"denmark": [56,11],

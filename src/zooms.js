@@ -51,9 +51,13 @@ module.exports = {
 	"hungary": 7,
 	"netherlands": 7,
 	"poland": 6,
+	"romania": 7,
 	"taiwan": 8,
 	"thailand": 5,
 	"usa": 4,
+	"chile": 4,
+	"santiago": 10,
+	"brunei": 9,
 	"united-arab-emirates": 7,
 	"uae": 7,
 	"dubai": 10
