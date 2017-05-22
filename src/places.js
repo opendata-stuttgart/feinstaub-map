@@ -299,6 +299,7 @@ module.exports = {
 	"florence": [43.783333,11.25],
 	"palermo": [38.115833,13.361389],
 	"bologna": [44.493889,11.342778],
+	"turin": [45.066667,7.7],
 	
 //	Romania
 	"romania": [46,25],
