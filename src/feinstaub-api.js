@@ -36,8 +36,8 @@ let api = {
 						return acc
 					}, {P1: 0, P2: 0})
 					return {
-						latitude: lat+0.0005,
-						longitude: long+0.0005,
+						latitude: lat,
+						longitude: long,
 						id: values[0].sensor.id,
 						data: {
 							P1: data.P1 / values.length,

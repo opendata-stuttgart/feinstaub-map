@@ -45,6 +45,16 @@ module.exports = {
 //	Italy
 	"italy": 6,
 	"sicily": 8,
+	
+//	Serbia
+	"serbia": 7,
+	
+//	Ukraine
+	"ukraine": 6,
+
+//	United Kingdom
+	"united-kingdom": 5,
+	"london": 10,
 
 	"belgium": 8,
 	"denmark": 7,
