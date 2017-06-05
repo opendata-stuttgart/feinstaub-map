@@ -39,8 +39,11 @@ module.exports = {
 	"bulgaria": 7,
 	"sofia": 12,
 
-//	Finnland
+//	Finland
 	"finland": 5,
+
+//	Ireland
+	"ireland": 7,
 
 //	Italy
 	"italy": 6,
