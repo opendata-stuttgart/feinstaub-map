@@ -1675,7 +1675,7 @@ body,
           flex: 1 0;
 }
 #cell-info {
-  width: 15rem;
+  width: 310px;
   background-color: #263238;
   color: #fafafa;
   padding: 0.5rem;
