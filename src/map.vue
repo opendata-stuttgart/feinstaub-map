@@ -3,6 +3,7 @@
 </template>
 <script>
 import leaflet from 'leaflet'
+import hash from 'leaflet-hash'
 import 'leaflet/dist/leaflet.css'
 import config from 'config'
 import api from './feinstaub-api'
@@ -24,9 +25,7 @@ export default {
 			}).addTo(map)
 
 			let options = {
-				mouseover: (data) => {
-					this.$emit('cell-selected', data)
-					document.getElementById("cell-info").style.display = ""
+				mouseover: () => {
 				},
 				mouseout: () => {
 				},
@@ -41,6 +40,9 @@ export default {
 			api.getAllSensors().then((cells) => {
 				hexLayer.data(cells)
 			})
+
+			var hash = new L.hash(map);
+
 		})
 	}
 }

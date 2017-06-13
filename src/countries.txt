@@ -1,0 +1,24 @@
+//	Asien	AE	United Arab Emirates
+//	Europa	AT	Austria
+//	Europa	BE	Belgium
+//	Europa	BG	Bulgaria
+//	Asien	BN	Brunei
+//	Europa	CH	Suisse
+//	Amerika	CL	Chile
+//	Europa	DE	Germany
+//	Europa	DK	Denmark
+//	Europa	FI	Finland
+//	Europa	FR	France
+//	Europa	HU	Hungary
+//	Europa	IE	Ireland
+//	Europa	IT	Italy
+//	Europa	NL	Netherlands
+//	Europa	PL	Poland
+//	Europa	RO	Romania
+//	Europa	RS	Serbia
+//	Asien	TW	Taiwan (nur externe Sensoren)
+//	Asien	TH	Thailand
+//	Europa	UA	Ukraine
+//	Europa	UK	United Kingdom
+//	Amerika	US	USA
+//	Asien	VN	Vietnam

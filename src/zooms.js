@@ -1,9 +1,9 @@
 module.exports = {
-	
-	"world": 2,
-		
+
 	"europe": 4,
-		
+
+//	---- Europe ----
+
 //	Germany
 	"deutschland": 6,
 	"germany": 6,
@@ -23,24 +23,32 @@ module.exports = {
 		
 	"ruhrgebiet": 9,
 		
-//	France
-	"france": 6,
-	"alsace": 8,
-
-//	Oesterreich
+//	Austria
 	"oesterreich": 7,
 	"austria": 7,
 
-//	Suisse
-	"schweiz": 8,
-	"suisse": 8,
+//	Belgium
+	"belgium": 8,
 
 //	Bulgaria
 	"bulgaria": 7,
 	"sofia": 12,
 
+//	Czech Republic
+	"czech-republic": 8,
+
+//	Denmark
+	"denmark": 7,
+
+//	France
+	"france": 6,
+	"alsace": 8,
+
 //	Finland
 	"finland": 5,
+
+//	Hungary
+	"hungary": 7,
 
 //	Ireland
 	"ireland": 7,
@@ -49,9 +57,22 @@ module.exports = {
 	"italy": 6,
 	"sicily": 8,
 	
+//	Netherlands
+	"netherlands": 7,
+
+//	Poland
+	"poland": 6,
+
+//	Romania
+	"romania": 7,
+
 //	Serbia
 	"serbia": 7,
 	
+//	Suisse
+	"schweiz": 8,
+	"suisse": 8,
+
 //	Ukraine
 	"ukraine": 6,
 
@@ -59,20 +80,37 @@ module.exports = {
 	"united-kingdom": 5,
 	"london": 10,
 
-	"belgium": 8,
-	"denmark": 7,
-	"hungary": 7,
-	"netherlands": 7,
-	"poland": 6,
-	"romania": 7,
-	"taiwan": 8,
-	"thailand": 5,
-	"usa": 4,
+//	---- America ----
+
+//	Chile
 	"chile": 4,
 	"santiago": 10,
+
+//	USA
+	"usa": 4,
+
+//	---- Asia ----
+
+//	Brunei
 	"brunei": 9,
+
+//	Nepal
+	"nepal": 7,
+
+//	Taiwan
+	"taiwan": 8,
+
+//	Thailand
+	"thailand": 5,
+
+//	United Arab Emirates
 	"united-arab-emirates": 7,
 	"uae": 7,
-	"dubai": 10
-		
+	"dubai": 10,
+
+//	Vietnam
+	"vietnam": 6,
+
+	"world": 2		
+
 }

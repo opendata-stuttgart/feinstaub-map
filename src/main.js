@@ -12,6 +12,21 @@ const query = querystring.parse(window.location.search.substring(1))
 
 console.log(query)
 
+window.onpopstate = function(event) {
+	if ((typeof location.search !== 'undefined') && (typeof location.hash !== 'undefined') && (location.hash !== '')) {
+		var new_location = location.protocol+'//'+location.host+'/';
+		if (typeof location.path !== 'undefined') {
+			new_location += location.path;
+		}
+		if (typeof location.hash !== 'undefined') {
+			new_location += location.hash;
+		}
+//		alert(new_location);
+//		location.replace(new_location);
+		history.pushState('remove_query', null, new_location);
+	}
+};
+
 if (query.center) {
 	const center = query.center.split(',').map((coord) => parseFloat(coord))
 	config.center = center
