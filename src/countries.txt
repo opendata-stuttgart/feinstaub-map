@@ -1,24 +1,32 @@
-//	Asien	AE	United Arab Emirates
-//	Europa	AT	Austria
-//	Europa	BE	Belgium
-//	Europa	BG	Bulgaria
-//	Asien	BN	Brunei
-//	Europa	CH	Suisse
-//	Amerika	CL	Chile
-//	Europa	DE	Germany
-//	Europa	DK	Denmark
-//	Europa	FI	Finland
-//	Europa	FR	France
-//	Europa	HU	Hungary
-//	Europa	IE	Ireland
-//	Europa	IT	Italy
-//	Europa	NL	Netherlands
-//	Europa	PL	Poland
-//	Europa	RO	Romania
-//	Europa	RS	Serbia
-//	Asien	TW	Taiwan (nur externe Sensoren)
-//	Asien	TH	Thailand
-//	Europa	UA	Ukraine
-//	Europa	UK	United Kingdom
-//	Amerika	US	USA
-//	Asien	VN	Vietnam
+//	Europe: 47 states
+//	World: 193
+//	* = very unstable, no active sensors for most time
+
+//		Asia		AE	United Arab Emirates
+//		Europe		AT	Austria
+//		Europe		BE	Belgium
+//		Europe		BG	Bulgaria
+//		Asia		BN	Brunei
+//		Europe		CH	Suisse
+//		America		CL	Chile
+//		Europe		CZ	Czech Republic
+//		Europe		DE	Germany
+//	*	Europe		DK	Denmark
+//		America		DO	Dominican Republic
+//		Europe		FI	Finland
+//		Europe		FR	France
+//		Europe		GR	Greece
+//		Europe		HU	Hungary
+//	*	Europe		IE	Ireland
+//		Europe		IT	Italy
+//		Europe		NL	Netherlands
+//		Asia		NP	Nepal
+//		Europe		PL	Poland
+//		Europe		RO	Romania
+//		Europe		RS	Serbia
+//	*	Asia		TW	Taiwan (nur externe Sensoren)
+//	*	Asia		TH	Thailand
+//	*	Europe		UA	Ukraine
+//		Europe		UK	United Kingdom
+//		America		US	USA
+//		Asia		VN	Vietnam

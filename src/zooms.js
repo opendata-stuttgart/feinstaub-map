@@ -47,6 +47,9 @@ module.exports = {
 //	Finland
 	"finland": 5,
 
+//	Greece
+	"greece": 6,
+
 //	Hungary
 	"hungary": 7,
 
@@ -85,6 +88,9 @@ module.exports = {
 //	Chile
 	"chile": 4,
 	"santiago": 10,
+
+//	Dominican Republic
+	"dominican-republic": 8,
 
 //	USA
 	"usa": 4,
