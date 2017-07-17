@@ -17,8 +17,6 @@ https://2016.spaceappschallenge.org/challenges/earth/aircheck
 * add GPS to existing sensor setup, see [commit](https://github.com/opendata-stuttgart/sensors-software/commit/58ff3fc409eb353f7f1e25051d55f153be9601b7)
 * enable push GPS data to Django API (changes for GPS measurements see [commit](https://github.com/opendata-stuttgart/feinstaub-api/commit/6b0a1d20685b5e9dd3dcb351e9b0b8860465e8df)) and/or via MQTT
 
-
-
 ## Visualisation
 
 This map visualisation was hacked during the NASA Space-Apps challenge 2016
@@ -40,7 +38,7 @@ mfa provided the changes to the API (see [commit](https://github.com/opendata-st
 The map background is based on [OpenStreetMap](http://openstreetmap.org/) provided via [mapbox](https://www.mapbox.com/).
 The application itself was created in JavaScript on top of a [leaflet](http://leafletjs.com/) layer.
 
-The implemetation makes use of various frameworks and is on ECMA6 language level.
+The implementation makes use of various frameworks and is on ECMA6 language level.
 Used frameworks are:
 
 * [leaflet](http://leafletjs.com/) (mapping framework)
@@ -48,24 +46,25 @@ Used frameworks are:
 * [lodash](https://lodash.com/) (map, reduce, reorder data sets)
 * [vue](http://vuejs.org/)
 * [webpack](https://webpack.github.io/) is used for deployment
+
 ## Usage
 
 ### Installation
 
 ```
-npm install
+yarn install
 cp config.js.dist config.js
 ```
 
 ### Develop
 
 ```
-npm start
+yarn start
 ```
 
 ### Publish
 
 ```
-npm run build
-npm run ghpages
+yarn run build
+yarn run ghpages
 ```
