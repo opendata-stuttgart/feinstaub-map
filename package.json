@@ -1,7 +1,7 @@
 {
   "name": "opendata-feinstaub-api",
   "version": "0.7.0",
-  "private": "true",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -74,6 +74,7 @@
     "d3-hexbin": "^0.2.0",
     "d3-tip": "^0.6.7",
     "leaflet": ">=1.0.0-rc.1",
+    "leaflet-hash": "^0.2.1",
     "lodash": "^4.11.1",
     "promise-polyfill": "^6.0.2",
     "vue": "2.1.x",
