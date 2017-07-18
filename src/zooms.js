@@ -34,6 +34,9 @@ module.exports = {
 	"bulgaria": 7,
 	"sofia": 12,
 
+//	Croatia
+	"croatia": 7,
+
 //	Czech Republic
 	"czech-republic": 8,
 
@@ -59,6 +62,9 @@ module.exports = {
 //	Italy
 	"italy": 6,
 	"sicily": 8,
+
+//	Luxembourg
+	"luxembourg": 9,
 	
 //	Netherlands
 	"netherlands": 7,
@@ -71,7 +77,12 @@ module.exports = {
 
 //	Serbia
 	"serbia": 7,
-	
+
+//	Spain
+	"spain": 6,
+	"mallorca": 10,
+	"majorca": 10,
+
 //	Suisse
 	"schweiz": 8,
 	"suisse": 8,
@@ -83,7 +94,16 @@ module.exports = {
 	"united-kingdom": 5,
 	"london": 10,
 
+//	---- Africa ----
+
+//	Cameroon
+	"cameroon": 6,
+	"yaounde": 11,
+
 //	---- America ----
+
+//	Canada
+	"canada": 3,
 
 //	Chile
 	"chile": 4,

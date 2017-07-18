@@ -7,18 +7,23 @@
 //		Europe		BE	Belgium
 //		Europe		BG	Bulgaria
 //		Asia		BN	Brunei
+//		America		CA	Canada
 //		Europe		CH	Suisse
 //		America		CL	Chile
+//		Africa		CM	Cameroon
 //		Europe		CZ	Czech Republic
 //		Europe		DE	Germany
 //	*	Europe		DK	Denmark
 //		America		DO	Dominican Republic
+//		Europe		ES	Spain
 //		Europe		FI	Finland
 //		Europe		FR	France
 //		Europe		GR	Greece
+//		Europe		HR	Croatia
 //		Europe		HU	Hungary
 //	*	Europe		IE	Ireland
 //		Europe		IT	Italy
+//		Europe		LU	Luxembourg
 //		Europe		NL	Netherlands
 //		Asia		NP	Nepal
 //		Europe		PL	Poland

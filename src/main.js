@@ -30,6 +30,10 @@ window.onpopstate = function(event) {
 if (query.center) {
 	const center = query.center.split(',').map((coord) => parseFloat(coord))
 	config.center = center
+} else if (location.hash) {
+		var hash_params = location.hash.split("/");
+		config.center = [hash_params[1],hash_params[2]];
+		config.zoom = hash_params[0].substring(1);
 } else {
 	var hostname = location.hostname;
 	var hostname_parts = hostname.split(".");
@@ -37,6 +41,7 @@ if (query.center) {
 		var place = hostname_parts[0].toLowerCase();
 		if (typeof places[place] !== 'undefined' && places[place] !== null) {
 			config.center = places[place];
+			config.zoom = 11;
 		}
 		if (typeof zooms[place] !== 'undefined' && zooms[place] !== null) {
 			config.zoom = zooms[place];

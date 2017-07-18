@@ -21,7 +21,7 @@ module.exports = {
 			{ test: /\.js$/, loader: 'babel', include: projectRoot, exclude: /node_modules\/(?!buntpapier)/ },
 			{ test: /\.json$/, loader: 'json' },
 			{ test: /\.html$/, loader: 'vue-html' },
-			{test: /\.svg(\?.*)?/, loader: 'svg-url',
+			{ test: /\.svg(\?.*)?/, loader: 'svg-url',
 				query: {
 					noquotes: true,
 					limit: 10000,

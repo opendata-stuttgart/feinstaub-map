@@ -257,6 +257,9 @@ module.exports = {
 	"kardzhali": [41.65,25.3667],
 	"dimitrovgrad": [42.05,25.6],
 
+//	Croatia
+	"croatia": [45.166667,15.5],
+
 //	Czech Republic
 	"czech-republic": [49.8,15.5],
 	"prague": [50.0833,14.4167],
@@ -297,6 +300,9 @@ module.exports = {
 	"bologna": [44.4939,11.3428],
 	"turin": [45.0667,7.7],
 
+//	Luxembourg
+	"luxembourg": [49.85,6],
+
 //	Netherlands
 	"netherlands": [51.6,5.5667],
 
@@ -311,6 +317,12 @@ module.exports = {
 //	Serbia
 	"serbia": [44,21],
 	"belgrade": [44.8167,20.4667],
+
+//	Spain
+	"spain": [40,-1],
+	"barcelona":[41.3837,2.1829],
+	"mallorca": [39.6167,2.9833],
+	"majorca": [39.6167,2.9833],
 
 //	Suisse
 	"schweiz": [46.8,8.2333],
@@ -336,7 +348,16 @@ module.exports = {
 	"bristol": [51.45,-2.5833],
 	"london": [51.5072,-0.1275],
 
+//	---- Africa ----
+
+//	Cameroon
+	"cameroon": [7.5,12],
+	"yaounde": [3.8667,11.5167],
+
 //	---- America ----
+
+//	Canada
+	"canada": [70,-95],
 
 //	Chile
 	"chile": [-38,-71],
