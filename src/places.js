@@ -310,6 +310,10 @@ module.exports = {
 	"poland": [52.1469,19.3781],
 	"wroclaw": [51.11,17.0322],
 
+//	Portugal
+	"portugal": [39.572,-8.031],
+	"lisbon": [38.7139,-9.1394],
+
 //	Romania
 	"romania": [46,25],
 	"bucharest": [44.4167,26.1],

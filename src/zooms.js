@@ -72,6 +72,10 @@ module.exports = {
 //	Poland
 	"poland": 6,
 
+//	Portugal
+	"portugal": 7,
+	"lisbon": 10,
+
 //	Romania
 	"romania": 7,
 

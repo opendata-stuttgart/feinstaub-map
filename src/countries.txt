@@ -27,6 +27,7 @@
 //		Europe		NL	Netherlands
 //		Asia		NP	Nepal
 //		Europe		PL	Poland
+//		Europe		PT	Portugal
 //		Europe		RO	Romania
 //		Europe		RS	Serbia
 //	*	Asia		TW	Taiwan (nur externe Sensoren)
