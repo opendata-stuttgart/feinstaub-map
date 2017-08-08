@@ -104,6 +104,9 @@ module.exports = {
 	"cameroon": 6,
 	"yaounde": 11,
 
+//	Nigeria
+	"nigeria": 6,
+
 //	---- America ----
 
 //	Canada

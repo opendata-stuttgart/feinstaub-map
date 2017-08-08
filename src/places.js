@@ -358,6 +358,10 @@ module.exports = {
 	"cameroon": [7.5,12],
 	"yaounde": [3.8667,11.5167],
 
+//	Nigeria
+	"nigeria": [9,8],
+	"abuja": [9.067,7.483],
+
 //	---- America ----
 
 //	Canada

@@ -24,6 +24,7 @@
 //	*	Europe		IE	Ireland
 //		Europe		IT	Italy
 //		Europe		LU	Luxembourg
+//		Africa		NG	Nigeria
 //		Europe		NL	Netherlands
 //		Asia		NP	Nepal
 //		Europe		PL	Poland
