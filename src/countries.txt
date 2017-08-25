@@ -23,10 +23,12 @@
 //		Europe		HU	Hungary
 //	*	Europe		IE	Ireland
 //		Europe		IT	Italy
+//		Africa		KE	Kenya
 //		Europe		LU	Luxembourg
 //		Africa		NG	Nigeria
 //		Europe		NL	Netherlands
 //		Asia		NP	Nepal
+//		America		PE	Peru
 //		Europe		PL	Poland
 //		Europe		PT	Portugal
 //		Europe		RO	Romania

@@ -71,6 +71,7 @@ module.exports = {
 
 //	Poland
 	"poland": 6,
+	"warsaw": 10,
 
 //	Portugal
 	"portugal": 7,
@@ -102,7 +103,9 @@ module.exports = {
 
 //	Cameroon
 	"cameroon": 6,
-	"yaounde": 11,
+
+//	Kenya
+	"kenya": 6,
 
 //	Nigeria
 	"nigeria": 6,
@@ -119,6 +122,9 @@ module.exports = {
 //	Dominican Republic
 	"dominican-republic": 8,
 
+//	Peru
+	"peru": 5,
+	
 //	USA
 	"usa": 4,
 
@@ -129,6 +135,9 @@ module.exports = {
 
 //	Nepal
 	"nepal": 7,
+
+//	Oman
+	"oman": 6,
 
 //	Taiwan
 	"taiwan": 8,

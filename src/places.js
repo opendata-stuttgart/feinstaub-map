@@ -308,6 +308,7 @@ module.exports = {
 
 //	Poland
 	"poland": [52.1469,19.3781],
+	"warsaw": [52.233333,21.016667],
 	"wroclaw": [51.11,17.0322],
 
 //	Portugal
@@ -358,6 +359,10 @@ module.exports = {
 	"cameroon": [7.5,12],
 	"yaounde": [3.8667,11.5167],
 
+//	Kenya
+	"kenya": [0,38],
+	"nairobi": [-1.2833,36.8167],
+
 //	Nigeria
 	"nigeria": [9,8],
 	"abuja": [9.067,7.483],
@@ -376,6 +381,10 @@ module.exports = {
 	"santo-domingo": [18.4667,-69.95],
 	"puerto-plata": [19.8030,-70.6830],
 
+//	Peru
+	"peru": [-8.233,-76.017],
+	"lima": [-12.043333,-77.028333],
+
 //	USA
 	"usa":	[40,-100],
 	"portland": [45.52,-122.6819],
@@ -388,6 +397,10 @@ module.exports = {
 //	Nepal
 	"nepal": [28.25,83.9167],
 	"kathmandu": [27.7,85.3167],
+
+//	Oman
+	"Oman": [21,57],
+	"muscat": [23.6,58.583],
 
 //	Taiwan
 	"taiwan": [23.63,121.0532],
