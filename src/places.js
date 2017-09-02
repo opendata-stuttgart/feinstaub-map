@@ -256,6 +256,7 @@ module.exports = {
 	"haskovo": [41.9333,25.5667],
 	"kardzhali": [41.65,25.3667],
 	"dimitrovgrad": [42.05,25.6],
+	"blagoevgrad":[42.0167,23.1],
 
 //	Croatia
 	"croatia": [45.166667,15.5],
@@ -343,6 +344,10 @@ module.exports = {
 	"st-gallen": [47.4236,9.3775],
 	"lugano": [46.008,8.9557],
 
+//	Sweden
+	"sweden": [63,16],
+	"stockholm": [59.3294,18.0686],
+
 //	Ukraine
 	"ukraine": [49,32],
 	"kiev": [50.43,30.5233],
@@ -375,6 +380,10 @@ module.exports = {
 //	Chile
 	"chile": [-38,-71],
 	"santiago": [-33.46,-70.6],
+
+//	Colombia
+	"colombia": [4,-72],
+	"bogota": [4.66,-74.0722],
 
 //	Dominican Republic
 	"dominican-republic": [19,-70.6667],

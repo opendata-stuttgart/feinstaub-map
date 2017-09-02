@@ -92,6 +92,9 @@ module.exports = {
 	"schweiz": 8,
 	"suisse": 8,
 
+//	Sweden
+	"sweden": 4,
+
 //	Ukraine
 	"ukraine": 6,
 
@@ -118,6 +121,9 @@ module.exports = {
 //	Chile
 	"chile": 4,
 	"santiago": 10,
+
+//	Colombia
+	"colombia": 5,
 
 //	Dominican Republic
 	"dominican-republic": 8,
