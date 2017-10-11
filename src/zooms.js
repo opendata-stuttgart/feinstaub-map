@@ -139,6 +139,10 @@ module.exports = {
 //	Brunei
 	"brunei": 9,
 
+//	China
+	"china": 4,
+	"beijing": 9,
+
 //	Nepal
 	"nepal": 7,
 
@@ -158,6 +162,11 @@ module.exports = {
 
 //	Vietnam
 	"vietnam": 6,
+
+//	---- Australia ----
+
+//	Australia
+	"australia": 4,
 
 	"world": 2		
 

@@ -29,7 +29,7 @@ let api = {
 					let long = Number(values[0].location.longitude)
 					let data = _.reduce(values, (acc, value) => {
 						let d = _.keyBy(value.sensordatavalues, 'value_type')
-						if (typeof d.P1 !== 'undefined' && d.P1 !== null && typeof d.P2 !== 'undefined' && d.P2 !== null) {
+						if (typeof d.P1 !== 'undefined' && d.P1 !== null && typeof d.P2 !== 'undefined' && d.P2 !== null && Number(d.P1.value) < 1999 && Number(d.P2.value < 999) ) {
 							acc.P1 += Number(d.P1.value)
 							acc.P2 += Number(d.P2.value)
 						}

@@ -4,6 +4,7 @@
 
 //		Asia		AE	United Arab Emirates
 //		Europe		AT	Austria
+//		Australia	AU	Australia
 //		Europe		BE	Belgium
 //		Europe		BG	Bulgaria
 //		Asia		BN	Brunei

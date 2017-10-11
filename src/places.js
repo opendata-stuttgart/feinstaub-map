@@ -403,6 +403,10 @@ module.exports = {
 //	Brunei
 	"brunei": [4.6,114.7],
 
+//	China
+	"china": [32.80,103.08],
+	"beijing": [39.92,116.38],
+
 //	Nepal
 	"nepal": [28.25,83.9167],
 	"kathmandu": [27.7,85.3167],
@@ -425,6 +429,11 @@ module.exports = {
 //	Vietnam
 	"vietnam": [16,107],
 	"hanoi": [21.0333,105.85],
+
+//	---- Australia ----
+
+//	Australia
+	"australia": [-25,135],
 
 	"world": [0,0]
 
