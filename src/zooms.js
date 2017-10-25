@@ -83,6 +83,9 @@ module.exports = {
 //	Serbia
 	"serbia": 7,
 
+//	Slovenia
+	"slovenia": 8,
+
 //	Spain
 	"spain": 6,
 	"mallorca": 10,

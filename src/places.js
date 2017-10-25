@@ -324,6 +324,10 @@ module.exports = {
 	"serbia": [44,21],
 	"belgrade": [44.8167,20.4667],
 
+//	Slovenia
+	"slovenia": [46.134,14.766],
+	"ljubljana": [46.056,14.508],
+
 //	Spain
 	"spain": [40,-1],
 	"barcelona":[41.3837,2.1829],
