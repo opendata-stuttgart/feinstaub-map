@@ -32,6 +32,18 @@ export default {
 				click: (data) => {
 					this.$emit('cell-selected', data)
 					document.getElementById("cell-info").style.display = ""
+					let row_counter = document.getElementsByClassName("cell_info_images");
+					for (var i = 0; i < row_counter.length; i++) {
+						row_counter[i].style.display = 'none'
+					}
+					row_counter = document.getElementsByClassName("graph_on");
+					for (var i = 0; i < row_counter.length; i++) {
+						row_counter[i].style.display = ''
+					}
+					row_counter = document.getElementsByClassName("graph_off");
+					for (var i = 0; i < row_counter.length; i++) {
+						row_counter[i].style.display = 'none'
+					}
 				}
 			}
 
