@@ -116,6 +116,9 @@ module.exports = {
 //	Nigeria
 	"nigeria": 6,
 
+//	Tanzania
+	"tanzania": 6,
+
 //	---- America ----
 
 //	Canada
@@ -151,6 +154,9 @@ module.exports = {
 
 //	Oman
 	"oman": 6,
+
+//	Republic of Korea
+	"republic-of-korea": 7,
 
 //	Taiwan
 	"taiwan": 8,

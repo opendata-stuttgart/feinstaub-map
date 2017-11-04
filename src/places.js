@@ -376,6 +376,10 @@ module.exports = {
 	"nigeria": [9,8],
 	"abuja": [9.067,7.483],
 
+//	Tanzania
+	"tanzania": [-6.307,34.854],
+	"dar-es-salaam": [-6.8,39.283333],
+
 //	---- America ----
 
 //	Canada
@@ -418,6 +422,10 @@ module.exports = {
 //	Oman
 	"Oman": [21,57],
 	"muscat": [23.6,58.583],
+
+//	Republic of Korea
+	"republic-of-korea": [36,128],
+	"seoul": [37.55,126.967],
 
 //	Taiwan
 	"taiwan": [23.63,121.0532],
