@@ -415,6 +415,10 @@ module.exports = {
 	"china": [32.80,103.08],
 	"beijing": [39.92,116.38],
 
+//	Kyrgyzstan
+	"kyrgyzstan": [41.267,74.983],
+	"bishkek": [42.867,74.567],
+
 //	Nepal
 	"nepal": [28.25,83.9167],
 	"kathmandu": [27.7,85.3167],

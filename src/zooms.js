@@ -149,6 +149,9 @@ module.exports = {
 	"china": 4,
 	"beijing": 9,
 
+//	Kyrgyzstan
+	"kyrgyzstan": 7,
+
 //	Nepal
 	"nepal": 7,
 
