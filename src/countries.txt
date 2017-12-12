@@ -8,6 +8,8 @@
 //		Europe		BE	Belgium
 //		Europe		BG	Bulgaria
 //		Asia		BN	Brunei
+//		America		BO	Bolivia
+//		America		BR	Brazil
 //		America		CA	Canada
 //		Europe		CH	Suisse
 //		America		CL	Chile
@@ -16,6 +18,7 @@
 //		Europe		DE	Germany
 //	*	Europe		DK	Denmark
 //		America		DO	Dominican Republic
+//		Asia		EG	Egypt
 //		Europe		ES	Spain
 //		Europe		FI	Finland
 //		Europe		FR	France
@@ -28,8 +31,10 @@
 //		Asia		KG	Kyrgyzstan
 //		Asia		KR	Republic of Korea
 //		Europe		LU	Luxembourg
+//		Europe		LV	Latvia
 //		Africa		NG	Nigeria
 //		Europe		NL	Netherlands
+//		Europe		NO	Norway
 //		Asia		NP	Nepal
 //		America		PE	Peru
 //		Europe		PL	Poland

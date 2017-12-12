@@ -63,11 +63,17 @@ module.exports = {
 	"italy": 6,
 	"sicily": 8,
 
+//	Latvia
+	"latvia": 7,
+
 //	Luxembourg
 	"luxembourg": 9,
 	
 //	Netherlands
 	"netherlands": 7,
+
+//	Norway
+	"norway": 4,
 
 //	Poland
 	"poland": 6,
@@ -110,6 +116,9 @@ module.exports = {
 //	Cameroon
 	"cameroon": 6,
 
+//	Egypt
+	"egypt": 6,
+
 //	Kenya
 	"kenya": 6,
 
@@ -120,6 +129,14 @@ module.exports = {
 	"tanzania": 6,
 
 //	---- America ----
+
+//	Bolivia
+	"bolivia": 6,
+
+//	Brazil
+	"brazil": 4,
+	"brasilia": 10,
+	"sao-paulo": 10,
 
 //	Canada
 	"canada": 3,
