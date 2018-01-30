@@ -68,7 +68,10 @@ module.exports = {
 
 //	Luxembourg
 	"luxembourg": 9,
-	
+
+//	Macedonia
+	"macedonia": 9,
+
 //	Netherlands
 	"netherlands": 7,
 
@@ -148,12 +151,18 @@ module.exports = {
 //	Colombia
 	"colombia": 5,
 
+//	Costa Rica
+	"costa-rica": 8,
+
 //	Dominican Republic
 	"dominican-republic": 8,
 
+//	Mexico
+	"mexico": 5,
+	
 //	Peru
 	"peru": 5,
-	
+
 //	USA
 	"usa": 4,
 
@@ -183,6 +192,9 @@ module.exports = {
 
 //	Thailand
 	"thailand": 5,
+
+//	Turkey
+	"turkey": 6,
 
 //	United Arab Emirates
 	"united-arab-emirates": 7,

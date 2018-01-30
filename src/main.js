@@ -14,14 +14,18 @@ console.log(query)
 
 window.onpopstate = function(event) {
 	if ((typeof location.search !== 'undefined') && (typeof location.hash !== 'undefined') && (location.hash !== '')) {
-		var new_location = location.protocol+'//'+location.host+'/';
-		if (typeof location.path !== 'undefined') {
-			new_location += location.path;
+		if (typeof location.pathname !== 'undefined') {
+			var path = location.pathname;
+			path = path.substring(0, path.lastIndexOf('/') + 1);
+		} else {
+			var path = "/";
 		}
+
+		var new_location = location.protocol+'//'+location.host+path;
 		if (typeof location.hash !== 'undefined') {
 			new_location += location.hash;
 		}
-//		alert(new_location);
+		console.log("New location: "+new_location);
 //		location.replace(new_location);
 		history.pushState('remove_query', null, new_location);
 	}

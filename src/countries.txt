@@ -14,6 +14,7 @@
 //		Europe		CH	Suisse
 //		America		CL	Chile
 //		Africa		CM	Cameroon
+//		America		CR	Costa Rica
 //		Europe		CZ	Czech Republic
 //		Europe		DE	Germany
 //	*	Europe		DK	Denmark
@@ -32,19 +33,23 @@
 //		Asia		KR	Republic of Korea
 //		Europe		LU	Luxembourg
 //		Europe		LV	Latvia
+//		Europe		MK	Macedonia
+//		America		MX	Mexico
 //		Africa		NG	Nigeria
 //		Europe		NL	Netherlands
 //		Europe		NO	Norway
 //		Asia		NP	Nepal
 //		America		PE	Peru
+//		Asia		PH	Philippines (nur externe Sensoren via MQTT)
 //		Europe		PL	Poland
 //		Europe		PT	Portugal
 //		Europe		RO	Romania
 //		Europe		RS	Serbia
 //		Europe		SE	Sweden
 //		Europe		SI	Slovenia
-//	*	Asia		TW	Taiwan (nur externe Sensoren)
 //	*	Asia		TH	Thailand
+//		Asia		TR	Turkey
+//	*	Asia		TW	Taiwan (nur externe Sensoren via MQTT)
 //		Africa		TZ	Tanzania
 //	*	Europe		UA	Ukraine
 //		Europe		UK	United Kingdom
