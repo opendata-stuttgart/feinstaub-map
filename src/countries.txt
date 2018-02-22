@@ -10,6 +10,7 @@
 //		Asia		BN	Brunei
 //		America		BO	Bolivia
 //		America		BR	Brazil
+//		Europe		BY	Belarus
 //		America		CA	Canada
 //		Europe		CH	Suisse
 //		America		CL	Chile
@@ -28,6 +29,7 @@
 //		Europe		HU	Hungary
 //	*	Europe		IE	Ireland
 //		Europe		IT	Italy
+//		Asia		JP	Japan
 //		Africa		KE	Kenya
 //		Asia		KG	Kyrgyzstan
 //		Asia		KR	Republic of Korea
@@ -47,6 +49,7 @@
 //		Europe		RS	Serbia
 //		Europe		SE	Sweden
 //		Europe		SI	Slovenia
+//		Europe		SK	Slovakia
 //	*	Asia		TH	Thailand
 //		Asia		TR	Turkey
 //	*	Asia		TW	Taiwan (nur externe Sensoren via MQTT)

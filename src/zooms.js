@@ -27,6 +27,9 @@ module.exports = {
 	"oesterreich": 7,
 	"austria": 7,
 
+//	Belarus
+	"belarus": 6,
+
 //	Belgium
 	"belgium": 8,
 
@@ -91,6 +94,9 @@ module.exports = {
 
 //	Serbia
 	"serbia": 7,
+
+//	Slovakia
+	"slovakia": 8,
 
 //	Slovenia
 	"slovenia": 8,
@@ -174,6 +180,10 @@ module.exports = {
 //	China
 	"china": 4,
 	"beijing": 9,
+
+//	Japan
+	"japan": 5,
+	"tokyo": 9,
 
 //	Kyrgyzstan
 	"kyrgyzstan": 7,

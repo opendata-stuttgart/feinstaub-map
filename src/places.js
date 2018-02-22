@@ -235,6 +235,10 @@ module.exports = {
 	"salzburg": [47.8,13.0333],
 	"innsbruck": [47.2672,11.3928],
 
+//	Belarus
+	"belarus": [54,28],
+	"minsk": [53.917, 27.55],
+
 //	Belgium
 	"belgium": [50.8,4],
 	"brussels": [50.833333,4.4],
@@ -336,6 +340,10 @@ module.exports = {
 //	Serbia
 	"serbia": [44,21],
 	"belgrade": [44.8167,20.4667],
+
+//	Slovakia
+	"slovakia": [48.667, 19.5],
+	"bratislava": [48.15, 17.117],
 
 //	Slovenia
 	"slovenia": [46.134,14.766],
@@ -448,6 +456,10 @@ module.exports = {
 //	China
 	"china": [32.80,103.08],
 	"beijing": [39.92,116.38],
+
+//	Japan
+	"japan": [35, 136],
+	"tokyo": [35.683, 139.767],
 
 //	Kyrgyzstan
 	"kyrgyzstan": [41.267,74.983],
