@@ -4,6 +4,32 @@ const URL = 'https://api.luftdaten.info/static/v2/data.dust.min.json'
 import _ from 'lodash'
 import 'whatwg-fetch'
 
+const AQI=[50,100,150,200,300,400,500,1000];
+const AQI_PM10=[54,154,254,354,424,504,604,99999];
+const AQI_PM25=[12,35.4,55.4,150.4,250.4,350.4,500.4,99999.9];
+
+function get_aqi(value, scale) {
+	var v0 = 0;
+	var s0 = 0;
+	for (var i in scale) {
+		var v1 = scale[i]
+		var s1 = AQI[i]
+		var delta_v = v1 - v0
+		var delta_s = s1 - s0
+		if (v0 <= value <= v1) {
+		  var de_v = delta_s / delta_v
+		  return  s0 + ( (value - v0) * de_v )}
+		s0 = s1
+		v0 = v1}
+	return s0 + ( (value - v0) * de_v ) 
+}
+
+function get_AQI(pm10, pm25) {
+	var r = Math.max(get_aqi(pm10, AQI_PM10), get_aqi(pm25, AQI_PM25));
+	return r
+}
+
+
 let api = {
 	fetchNow() {
 		return fetch(URL).then((response) => response.json())
@@ -40,13 +66,16 @@ let api = {
 						}
 						return acc
 					}, {P1: 0, P2: 0})
+					var P1 = data.P1 / values.length;
+					var P2 = data.P2 / values.length
 					return {
 						latitude: lat,
 						longitude: long,
 						id: values[0].sensor.id,
 						data: {
-							P1: data.P1 / values.length,
-							P2: data.P2 / values.length
+							P1: P1,
+							P2: P2,
+							AQI: get_AQI(P1, P2)
 						}
 					}
 				})

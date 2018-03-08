@@ -9,7 +9,7 @@
 			.label(style="bottom: 60%") 75
 			.label.limit(style="bottom: 40%") 50
 			.label(style="bottom: 20%") 25
-			.label(style="bottom: 0%") 0 µg/m³
+			.label(style="bottom: 0%") 0 AQI
 </template>
 <script>
 export default {

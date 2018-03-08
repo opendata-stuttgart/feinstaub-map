@@ -16,10 +16,12 @@
 			th Sensor ID
 			th PM10 µg/m³
 			th PM2.5 µg/m³
+			th AQI
 		tr.mean
 			td mean
 			td {{mean.P1.toFixed(0)}}
 			td {{mean.P2.toFixed(0)}}
+			td {{mean.AQI.toFixed(0)}}
 		template(v-for="sensor in cell")
 			tr
 				td(style="text-align:left;")
@@ -27,6 +29,7 @@
 					a(:id="'graph_'+sensor.o.id+'_off'" class="graph_off" onclick="var sensor=this.id.substring(0,this.id.length-4);document.getElementById(sensor).style.display='none';document.getElementById(sensor+'_on').style.display='';document.getElementById(sensor+'_off').style.display='none'; document.getElementById('images_'+sensor.substr(6)).innerHTML=''; return false;" href='#' style='color:white; text-decoration: none; display: none;') (-)&nbsp;{{sensor.o.id}}
 				td {{sensor.o.data.P1.toFixed(0)}}
 				td {{sensor.o.data.P2.toFixed(0)}}
+				td {{sensor.o.data.AQI.toFixed(0)}}
 			tr(:id = "'graph_'+sensor.o.id" style="display:none" class="cell_info_images")
 				td(:id = "'images_'+sensor.o.id" colspan='3')
 					br
@@ -46,7 +49,8 @@ export default {
 		mean () {
 			return {
 				P1: _.meanBy(this.cell, (o) => o.o.data.P1),
-				P2: _.meanBy(this.cell, (o) => o.o.data.P2)
+				P2: _.meanBy(this.cell, (o) => o.o.data.P2),
+				AQI: _.meanBy(this.cell, (o) => o.o.data.AQI)
 			}
 		}
 	}

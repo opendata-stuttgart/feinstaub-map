@@ -6,6 +6,8 @@ import _ from 'lodash'
 
 d3.hexbin = d3Hexbin.hexbin
 
+
+
 L.HexbinLayer = L.Layer.extend({
 	_undef (a) { return typeof a === 'undefined' },
 	options: {
@@ -25,7 +27,7 @@ L.HexbinLayer = L.Layer.extend({
 			return d.latitude
 		},
 		value: function (d) {
-			return _.meanBy(d, (o) => o.o.data.P1)
+			return _.meanBy(d, (o) => o.o.data.AQI)
 		}
 	},
 
