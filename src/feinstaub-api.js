@@ -8,7 +8,7 @@ const AQI=[50,100,150,200,300,400,500,1000];
 const AQI_PM10=[54,154,254,354,424,504,604,99999];
 const AQI_PM25=[12,35.4,55.4,150.4,250.4,350.4,500.4,99999.9];
 
-function get_aqi(value, scale) {
+function rescaleValue(value, scale) {
 	var v0 = 0;
 	var s0 = 0;
 	for (var i in scale) {
@@ -24,11 +24,10 @@ function get_aqi(value, scale) {
 	return s0 + ( (value - v0) * de_v ) 
 }
 
-function get_AQI(pm10, pm25) {
-	var r = Math.max(get_aqi(pm10, AQI_PM10), get_aqi(pm25, AQI_PM25));
+function getAQI(pm10, pm25) {
+	var r = Math.max(rescaleValue(pm10, AQI_PM10), rescaleValue(pm25, AQI_PM25));
 	return r
 }
-
 
 let api = {
 	fetchNow() {
@@ -75,7 +74,7 @@ let api = {
 						data: {
 							P1: P1,
 							P2: P2,
-							AQI: get_AQI(P1, P2)
+							AQI: getAQI(P1, P2)
 						}
 					}
 				})
