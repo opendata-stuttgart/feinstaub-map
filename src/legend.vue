@@ -4,11 +4,11 @@
 		.gradient
 			.limit
 		.labels
-			.label(style="bottom: 100%") 500
-			.label(style="bottom: 80%") 100
-			.label(style="bottom: 60%") 75
-			.label.limit(style="bottom: 40%") 50
-			.label(style="bottom: 20%") 25
+			.label(style="bottom: 100%") 10000
+			.label(style="bottom: 80%") 200
+			.label(style="bottom: 60%") 150
+			.label.limit(style="bottom: 40%") 100
+			.label(style="bottom: 20%") 50
 			.label(style="bottom: 0%") 0 AQI
 </template>
 <script>
@@ -50,7 +50,7 @@ colorRange: ['#00796B', '#F9A825', '#E65100', '#DD2C00'],*/
 	.gradient
 		opacity 0.8
 		width 20px
-		background linear-gradient(to top, rgba(0,121,107,1) 0%, rgba(0,121,107,1) 16%, rgba(249,168,37,1) 32%, rgba(230,81,0,1) 48%, rgba(221,44,0,1) 72%, rgba(221,44,0,1) 80%, rgba(140,0,132,1) 100%)
+		background linear-gradient(to top, rgba(0,121,107,1) 0%, rgba(249,168,37,1) 20%, rgba(230,81,0,1) 40%, rgba(221,44,0,1) 60%, rgba(140,0,132,1) 80%, rgba(1,1,1,1) 100%)
 		position relative
 		.limit
 			height 2px
