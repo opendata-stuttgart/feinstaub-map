@@ -92,6 +92,10 @@ module.exports = {
 //	Romania
 	"romania": 7,
 
+//	Russia
+	"russia": 3,
+	"moskow": 10,
+
 //	Serbia
 	"serbia": 7,
 
@@ -163,6 +167,9 @@ module.exports = {
 //	Dominican Republic
 	"dominican-republic": 8,
 
+//	Guatemala
+	"guatemala": 7,
+
 //	Mexico
 	"mexico": 5,
 	
@@ -181,6 +188,9 @@ module.exports = {
 	"china": 4,
 	"beijing": 9,
 
+//	India
+	"india": 4,
+
 //	Japan
 	"japan": 5,
 	"tokyo": 9,
@@ -188,6 +198,9 @@ module.exports = {
 //	Kyrgyzstan
 	"kyrgyzstan": 7,
 
+//	Malaysia
+	"malaysia": 7,
+	
 //	Nepal
 	"nepal": 7,
 

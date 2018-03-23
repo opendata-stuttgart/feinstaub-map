@@ -337,6 +337,10 @@ module.exports = {
 	"romania": [46,25],
 	"bucharest": [44.4167,26.1],
 
+//	Russia
+	"russia": [65,90],
+	"moskow": [55.750,37.617],
+
 //	Serbia
 	"serbia": [44,21],
 	"belgrade": [44.8167,20.4667],
@@ -436,6 +440,10 @@ module.exports = {
 	"santo-domingo": [18.4667,-69.95],
 	"puerto-plata": [19.8030,-70.6830],
 
+//	Guatemala
+	"guatemala": [15.5,-90.25],
+	"guatemala-city": [14.613,-90.535],
+
 //	Mexico
 	"mexico": [23,-102],
 	"mexico-city": [19.433, -99.133],
@@ -457,6 +465,9 @@ module.exports = {
 	"china": [32.80,103.08],
 	"beijing": [39.92,116.38],
 
+//	India
+	"india": [21,78],
+
 //	Japan
 	"japan": [35, 136],
 	"tokyo": [35.683, 139.767],
@@ -464,6 +475,11 @@ module.exports = {
 //	Kyrgyzstan
 	"kyrgyzstan": [41.267,74.983],
 	"bishkek": [42.867,74.567],
+
+//	Malaysia
+	"malaysia": [4.226,114.033],
+	"kuala-lumpur": [3.141,101.698],
+	"putrajaya": [2.943,101.699],
 
 //	Nepal
 	"nepal": [28.25,83.9167],
