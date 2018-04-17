@@ -283,6 +283,7 @@ module.exports = {
 	"alsace": [48.24905,7.52806],
 	"strasbourg": [48.5836,7.74806],
 	"grenoble": [45.2002,5.7222],
+	"rennes": [48.107,-1.659],
 
 //	Greece
 	"greece": [39,22],
