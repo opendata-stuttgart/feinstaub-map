@@ -226,6 +226,10 @@ module.exports = {
 	"wuppertal": [51.2592,7.2111],
 	"zwickau": [50.7189,12.4922],
 
+//	Albania
+	"albania": [41,20],
+	"tirana": [41.317,19.817],
+
 //	Austria
 	"oesterreich": [47.6,13.7833],
 	"austria": [47.6,13.7833],
@@ -409,6 +413,12 @@ module.exports = {
 	"tanzania": [-6.307,34.854],
 	"dar-es-salaam": [-6.8,39.283333],
 
+//	South Africa
+	"south-africa": [-28.65,25],
+	"pretoria": [-25.746, 28.188],
+	"bloemfontain": [-29.117, 26.217],
+	"cape-town": [-33.925, 18.424],
+
 //	---- America ----
 
 //	Bolivia
@@ -454,6 +464,7 @@ module.exports = {
 
 //	USA
 	"usa":	[40,-100],
+	"united-states":	[40,-100],
 	"portland": [45.52,-122.6819],
 
 //	---- Asia ----

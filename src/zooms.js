@@ -22,7 +22,10 @@ module.exports = {
 	"thueringen": 8,
 		
 	"ruhrgebiet": 9,
-		
+
+//	Albania
+	"albania": 7,
+
 //	Austria
 	"oesterreich": 7,
 	"austria": 7,
@@ -141,6 +144,9 @@ module.exports = {
 //	Tanzania
 	"tanzania": 6,
 
+//	South Africa
+	"south-africa": 6,
+
 //	---- America ----
 
 //	Bolivia
@@ -178,6 +184,7 @@ module.exports = {
 
 //	USA
 	"usa": 4,
+	"united-states": 4,
 
 //	---- Asia ----
 

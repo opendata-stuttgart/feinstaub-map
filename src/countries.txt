@@ -3,6 +3,7 @@
 //	* = very unstable, no active sensors for most time
 
 //		Asia		AE	United Arab Emirates
+//		Europe		AL	Albania
 //		Europe		AT	Austria
 //		Australia	AU	Australia
 //		Europe		BE	Belgium
@@ -61,3 +62,4 @@
 //		Europe		UK	United Kingdom
 //		America		US	USA
 //		Asia		VN	Vietnam
+//		Africa		ZA	South Africa
