@@ -390,6 +390,7 @@ module.exports = {
 //	United Kingdom
 	"united-kingdom": [55,-4],
 	"bristol": [51.45,-2.5833],
+	"eastbourne": [50.8,0.34],
 	"london": [51.5072,-0.1275],
 
 //	---- Africa ----
