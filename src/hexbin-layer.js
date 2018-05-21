@@ -6,6 +6,20 @@ import _ from 'lodash'
 
 d3.hexbin = d3Hexbin.hexbin
 
+function medianBy (rr, iterator) {
+	const r = _.map(rr, iterator)
+	const len = _.size(r)
+
+	if (len === 0) return null
+	if (len === 1) return r[0]
+
+	const sorted = _.sortBy(r, _.identity)
+	const idx = _.floor(len / 2)
+
+	if (len % 2 !== 0) return sorted[idx]
+	return (sorted[idx - 1] + sorted[idx]) / 2
+}
+
 L.HexbinLayer = L.Layer.extend({
 	_undef (a) { return typeof a === 'undefined' },
 	options: {
@@ -25,7 +39,7 @@ L.HexbinLayer = L.Layer.extend({
 			return d.latitude
 		},
 		value: function (d) {
-			return _.meanBy(d, (o) => o.o.data.P1)
+			return medianBy(d, o => o.o.data.P1)
 		}
 	},
 
