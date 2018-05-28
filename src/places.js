@@ -269,6 +269,10 @@ module.exports = {
 //	Croatia
 	"croatia": [45.166667,15.5],
 
+//	Cyprus
+	"cyprus": [35.17,33.4],
+	"nicosia": [35.167, 33.367],
+
 //	Czech Republic
 	"czech-republic": [49.8,15.5],
 	"prague": [50.0833,14.4167],
@@ -310,6 +314,10 @@ module.exports = {
 	"bologna": [44.4939,11.3428],
 	"turin": [45.0667,7.7],
 	"rome":	[41.9,12.5],
+
+//	Kosovo
+	"kosovo": [42.583,21],
+	"pristina": [42.667,21.167],
 
 //	Latvia
 	"latvia": [57,25],

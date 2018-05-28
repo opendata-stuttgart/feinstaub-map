@@ -17,6 +17,7 @@
 //		America		CL	Chile
 //		Africa		CM	Cameroon
 //		America		CR	Costa Rica
+//		Europe		CY	Cyprus
 //		Europe		CZ	Czech Republic
 //		Europe		DE	Germany
 //	*	Europe		DK	Denmark
@@ -62,4 +63,5 @@
 //		Europe		UK	United Kingdom
 //		America		US	USA
 //		Asia		VN	Vietnam
+//		Europe		XK	Kosovo
 //		Africa		ZA	South Africa

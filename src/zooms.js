@@ -43,6 +43,9 @@ module.exports = {
 //	Croatia
 	"croatia": 7,
 
+//	Cyprus
+	"cyprus": 9,
+
 //	Czech Republic
 	"czech-republic": 8,
 
@@ -68,6 +71,9 @@ module.exports = {
 //	Italy
 	"italy": 6,
 	"sicily": 8,
+
+//	Kosovo
+	"kosovo": 8,
 
 //	Latvia
 	"latvia": 7,
