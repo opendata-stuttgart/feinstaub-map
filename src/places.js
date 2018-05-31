@@ -485,6 +485,7 @@ module.exports = {
 //	China
 	"china": [32.80,103.08],
 	"beijing": [39.92,116.38],
+	"hongkong": [22.352,114.196],
 
 //	India
 	"india": [21,78],
