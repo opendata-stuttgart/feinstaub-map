@@ -17,12 +17,14 @@ parser.add_argument('-o', '--outfilename', default='', type=str, dest='outfilena
 parser.add_argument('-u', '--url', default='http://api.luftdaten.info/v1/now/?format=json', type=str, dest='url',
                    help='read json from url')
 
-
 args=parser.parse_args()
 
 if args.url:
     r = requests.get(args.url)
     j=json.loads(r.text)
+
+cf2liter=28.316846592*0.01 # calibration formula yields unit: particles per 0.01 cf
+# Detectable range of concentration 0~28,000 pcs/liter (0~8,000pcs/0.01 CF=283ml)
 
 # feature list
 featl=[]
@@ -52,6 +54,10 @@ for sen in j:
     prop['timestamp']=sen['timestamp']
     for pr in sen['sensordatavalues']:
         prop[pr['value_type']]= float(pr['value'])
+        if pr['value_type']=="P1":
+            prop["P1l"]=float(pr['value'])*cf2liter
+        if pr['value_type']=="P2":
+            prop["P2l"]=float(pr['value'])*cf2liter
     f=geojson.Feature(geometry=p,properties=prop)
     featl.append(f)
 
