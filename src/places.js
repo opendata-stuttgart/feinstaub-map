@@ -431,6 +431,10 @@ module.exports = {
 
 //	---- America ----
 
+//	Argentina
+	"argentina": [-39,-63],
+	"buenos-aires": [-34.6,-58.383],
+
 //	Bolivia
 	"bolivia": [-16.712,-64.666],
 	"la-paz": [-16.5,-68.15],
@@ -489,6 +493,10 @@ module.exports = {
 
 //	India
 	"india": [21,78],
+
+//	"Iraq"
+	"iraq": [33,44],
+	"baghdad": [33.33,44.43],
 
 //	Japan
 	"japan": [35, 136],
