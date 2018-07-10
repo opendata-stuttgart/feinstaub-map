@@ -32,6 +32,7 @@
 //		Europe		HU	Hungary
 //	*	Europe		IE	Ireland
 //		Asia		IN	India
+//		Asia		IQ	Iraq
 //		Europe		IT	Italy
 //		Asia		JP	Japan
 //		Africa		KE	Kenya

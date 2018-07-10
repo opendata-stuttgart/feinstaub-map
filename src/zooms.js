@@ -155,6 +155,10 @@ module.exports = {
 
 //	---- America ----
 
+//	Argentina
+	"argentina": 4,
+	"buenos-aires": 10,
+
 //	Bolivia
 	"bolivia": 6,
 
@@ -203,6 +207,9 @@ module.exports = {
 
 //	India
 	"india": 4,
+
+//	Iraq
+	"iraq": 6,
 
 //	Japan
 	"japan": 5,
