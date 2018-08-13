@@ -468,6 +468,10 @@ module.exports = {
 	"guatemala": [15.5,-90.25],
 	"guatemala-city": [14.613,-90.535],
 
+//	Haiti
+	"haiti": [19,-72.417],
+	"port-au-prince": [18.533, -72.333],
+
 //	Mexico
 	"mexico": [23,-102],
 	"mexico-city": [19.433, -99.133],

@@ -186,6 +186,9 @@ module.exports = {
 //	Guatemala
 	"guatemala": 7,
 
+//	Haiti
+	"haiti": 8,
+
 //	Mexico
 	"mexico": 5,
 	

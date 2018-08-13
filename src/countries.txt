@@ -4,6 +4,7 @@
 
 //		Asia		AE	United Arab Emirates
 //		Europe		AL	Albania
+//		America		AR	Argentina
 //		Europe		AT	Austria
 //		Australia	AU	Australia
 //		Europe		BE	Belgium
@@ -29,6 +30,7 @@
 //		Europe		GR	Greece
 //		America		GT	Guatemala
 //		Europe		HR	Croatia
+//		America		HT	Haiti
 //		Europe		HU	Hungary
 //	*	Europe		IE	Ireland
 //		Asia		IN	India
