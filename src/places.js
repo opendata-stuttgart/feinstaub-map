@@ -305,6 +305,7 @@ module.exports = {
 //	Ireland
 	"ireland": [53.1333,-8.1167],
 	"dublin": [53.3425,-6.2658],
+	"sligo": [54.276790, -8.474551]
 
 //	Italy
 	"italy": [42,12],
