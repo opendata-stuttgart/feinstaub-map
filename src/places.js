@@ -502,6 +502,11 @@ module.exports = {
 	"iraq": [33,44],
 	"baghdad": [33.33,44.43],
 
+//	Israel
+	"israel": [31,35],
+	"jerusalem": [31.783, 35.217],
+	"tel-aviv": [32.067,34.783],
+
 //	Japan
 	"japan": [35, 136],
 	"tokyo": [35.683, 139.767],

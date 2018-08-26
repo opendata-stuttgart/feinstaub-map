@@ -33,6 +33,7 @@
 //		America		HT	Haiti
 //		Europe		HU	Hungary
 //	*	Europe		IE	Ireland
+//		Asia		IL	Israel
 //		Asia		IN	India
 //		Asia		IQ	Iraq
 //		Europe		IT	Italy

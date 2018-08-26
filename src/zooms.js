@@ -214,6 +214,9 @@ module.exports = {
 //	Iraq
 	"iraq": 6,
 
+//	Israel
+	"israel": 7,
+
 //	Japan
 	"japan": 5,
 	"tokyo": 9,
