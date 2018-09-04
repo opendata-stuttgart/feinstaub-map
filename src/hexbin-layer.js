@@ -39,6 +39,17 @@ L.HexbinLayer = L.Layer.extend({
 			.clamp(true)
 	},
 
+	// Make hex radius dynamic for different zoom levels to give a nicer overview of the sensors as well as making sure that the hex grid does not cover the whole world when zooming out
+	getFlexRadius () {
+		if (this.map.getZoom() < 3) {
+			return this.options.radius / (3 * (4 - this.map.getZoom()))
+		} else if (this.map.getZoom() > 2 && this.map.getZoom() < 8) {
+			return this.options.radius / (9 - this.map.getZoom())
+		} else {
+			return this.options.radius
+		}
+	},
+
 	onAdd (map) {
 		this.map = map
 		let _layer = this
@@ -174,7 +185,7 @@ L.HexbinLayer = L.Layer.extend({
 	_createHexagons(g, data, projection) {
 		// Create the bins using the hexbin layout
 		let hexbin = d3.hexbin()
-			.radius(this.options.radius / projection.scale)
+			.radius(this.getFlexRadius() / projection.scale)
 			.x( (d) => d.point.x )
 			.y( (d) => d.point.y )
 		let bins = hexbin(data)
