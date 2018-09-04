@@ -257,6 +257,11 @@ module.exports = {
 
 //	Australia
 	"australia": 4,
+	"adelaide": 10,
+	"brisbane": 10,
+	"melbourne": 10,
+	"perth": 10,
+	"sydney": 10,
 
 	"world": 2		
 
