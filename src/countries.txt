@@ -38,6 +38,7 @@
 //		Asia		IQ	Iraq
 //		Europe		IT	Italy
 //		Asia		JP	Japan
+//		Asia		JO	Jordan
 //		Africa		KE	Kenya
 //		Asia		KG	Kyrgyzstan
 //		Asia		KR	Republic of Korea

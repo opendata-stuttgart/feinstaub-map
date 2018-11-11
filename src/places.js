@@ -342,6 +342,7 @@ module.exports = {
 	"poland": [52.1469,19.3781],
 	"warsaw": [52.233333,21.016667],
 	"wroclaw": [51.11,17.0322],
+	"lomianki": [52.367,20.9],
 
 //	Portugal
 	"portugal": [39.572,-8.031],
@@ -511,6 +512,10 @@ module.exports = {
 //	Japan
 	"japan": [35, 136],
 	"tokyo": [35.683, 139.767],
+
+//	Jordan
+	"jordan": [31.24, 36.51],
+	"amman": [31.95, 35.933],
 
 //	Kyrgyzstan
 	"kyrgyzstan": [41.267,74.983],

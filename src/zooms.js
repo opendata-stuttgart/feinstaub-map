@@ -221,6 +221,9 @@ module.exports = {
 	"japan": 5,
 	"tokyo": 9,
 
+//	Jordan
+	"jordan": 7,
+
 //	Kyrgyzstan
 	"kyrgyzstan": 7,
 
