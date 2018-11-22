@@ -36,6 +36,9 @@ module.exports = {
 //	Belgium
 	"belgium": 8,
 
+//	Bosnia and Herzegovina
+	"bosnia-and-herzegovina": 8,
+
 //	Bulgaria
 	"bulgaria": 7,
 	"sofia": 12,

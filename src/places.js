@@ -247,6 +247,10 @@ module.exports = {
 	"belgium": [50.8,4],
 	"brussels": [50.833333,4.4],
 
+//	Bosnia and Herzegovina
+	"bosnia-and-herzegovina": [43.925,18],
+	"sarajevo": [43.867, 18.417],
+
 //	Bulgaria
 	"bulgaria": [42.65,25.4],
 	"sofia": [42.6972,23.3233],
