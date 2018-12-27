@@ -52,6 +52,10 @@ Used frameworks are:
 
 ### Installation
 
+Please make the appropriate changes to index.html (activate Google fonts API instead of proxied version) and map.vue (openstreetmap instead of proxied version)
+
+NPM should be version 3.10.x
+
 ```
 npm install
 cp config.js.dist config.js

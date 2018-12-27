@@ -328,6 +328,10 @@ module.exports = {
 	"latvia": [57,25],
 	"riga": [56.9490,24.1060],
 
+//	Liechtenstein
+	"liechtenstein": [47.17,9.51],
+	"vaduz": [47.141,9.521],
+
 //	Luxembourg
 	"luxembourg": [49.85,6],
 	
@@ -358,7 +362,7 @@ module.exports = {
 
 //	Russia
 	"russia": [65,90],
-	"moskow": [55.750,37.617],
+	"moscow": [55.750,37.617],
 
 //	Serbia
 	"serbia": [44,21],
@@ -562,7 +566,7 @@ module.exports = {
 	"vietnam": [16,107],
 	"hanoi": [21.0333,105.85],
 
-//	---- Australia ----
+//	---- Oceania ----
 
 //	Australia
 	"australia": [-25,135],
@@ -574,6 +578,10 @@ module.exports = {
 	"melbourne": [-37.814, 144.963],
 	"perth": [-31.952, 115.859],
 	"sydney": [-33.865, 151.209],
+	
+//	New Zealand
+	"new-zealand": [-44,173],
+	"wellington": [-41.3,174.79],
 
 	"world": [0,0]
 

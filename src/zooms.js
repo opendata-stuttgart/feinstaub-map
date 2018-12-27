@@ -81,6 +81,9 @@ module.exports = {
 //	Latvia
 	"latvia": 7,
 
+//	Liechtenstein
+	"liechtenstein": 11,
+
 //	Luxembourg
 	"luxembourg": 9,
 
@@ -259,7 +262,7 @@ module.exports = {
 //	Vietnam
 	"vietnam": 6,
 
-//	---- Australia ----
+//	---- Oceania ----
 
 //	Australia
 	"australia": 4,
@@ -268,6 +271,9 @@ module.exports = {
 	"melbourne": 10,
 	"perth": 10,
 	"sydney": 10,
+
+//	New Zealand
+	"new-zealand": [5],
 
 	"world": 2		
 

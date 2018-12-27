@@ -1,4 +1,4 @@
-const URL = '/data/v2/data.dust.min.json'
+const URL = 'https://maps.luftdaten.info/data/v2/data.dust.min.json'
 // const URL = 'https://api.luftdaten.info/static/v2/data.dust.min.json'
 // const URL = 'https://api.luftdaten.info/v1/filter/area=48.800000,9.200000,50'
 
