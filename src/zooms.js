@@ -215,7 +215,7 @@ module.exports = {
 	"beijing": 9,
 
 //	India
-	"india": 4,
+	"india": 5,
 	"mumbai": 11,
 
 //	Iraq
