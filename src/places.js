@@ -507,6 +507,7 @@ module.exports = {
 
 //	India
 	"india": [21,78],
+	"mumbai": [19,72.83],
 
 //	"Iraq"
 	"iraq": [33,44],
