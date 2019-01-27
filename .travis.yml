@@ -1,18 +1,12 @@
 language: node_js
 node_js:
-  - "6"
+- '6'
 before_script:
-  - cp config.js.dist config.js
+- cp config.js.dist config.js
 script: npm run build
-before_deploy:
-  # Set up git user name and tag this commit
-  - git config --local user.name "ricki-z"
-  - git config --local user.email "ricki_z@gmx.de"
-  - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
-  - git tag $TRAVIS_TAG
-deploy:
-  provider: script
-  script: npm run build
-  skip_cleanup: true
-  on:
-    branch: master
+after_success:
+  - git config --global user.name "ricki-z"
+  - git config --global user.email "ricki_z@gmx.de"
+  - git remote rm origin
+  - git remote add origin https://ricki-z:${GH_TOKEN}@github.com/opendata-stuttgart/feinstaub-map.git
+  - npm run ghpages
