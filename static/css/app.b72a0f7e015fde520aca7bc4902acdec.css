@@ -45,8 +45,10 @@
 .leaflet-container .leaflet-marker-pane img,
 .leaflet-container .leaflet-shadow-pane img,
 .leaflet-container .leaflet-tile-pane img,
-.leaflet-container img.leaflet-image-layer {
+.leaflet-container img.leaflet-image-layer,
+.leaflet-container .leaflet-tile {
 	max-width: none !important;
+	max-height: none !important;
 	}
 
 .leaflet-container.leaflet-touch-zoom {
@@ -55,7 +57,10 @@
 	}
 .leaflet-container.leaflet-touch-drag {
 	-ms-touch-action: pinch-zoom;
-	}
+	/* Fallback for FF which doesn't support pinch-zoom */
+	touch-action: none;
+	touch-action: pinch-zoom;
+}
 .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
 	-ms-touch-action: none;
 	touch-action: none;
@@ -164,7 +169,6 @@
 	opacity: 0;
 	-webkit-transition: opacity 0.2s linear;
 	   -moz-transition: opacity 0.2s linear;
-	     -o-transition: opacity 0.2s linear;
 	        transition: opacity 0.2s linear;
 	}
 .leaflet-fade-anim .leaflet-map-pane .leaflet-popup {
@@ -181,14 +185,12 @@
 .leaflet-zoom-anim .leaflet-zoom-animated {
 	-webkit-transition: -webkit-transform 0.25s cubic-bezier(0,0,0.25,1);
 	   -moz-transition:    -moz-transform 0.25s cubic-bezier(0,0,0.25,1);
-	     -o-transition:      -o-transform 0.25s cubic-bezier(0,0,0.25,1);
 	        transition:         transform 0.25s cubic-bezier(0,0,0.25,1);
 	}
 .leaflet-zoom-anim .leaflet-tile,
 .leaflet-pan-anim .leaflet-tile {
 	-webkit-transition: none;
 	   -moz-transition: none;
-	     -o-transition: none;
 	        transition: none;
 	}
 
@@ -205,6 +207,7 @@
 .leaflet-grab {
 	cursor: -webkit-grab;
 	cursor:    -moz-grab;
+	cursor:         grab;
 	}
 .leaflet-crosshair,
 .leaflet-crosshair .leaflet-interactive {
@@ -220,6 +223,7 @@
 	cursor: move;
 	cursor: -webkit-grabbing;
 	cursor:    -moz-grabbing;
+	cursor:         grabbing;
 	}
 
 /* marker & overlays interactivity */
@@ -490,7 +494,6 @@
 	-webkit-transform: rotate(45deg);
 	   -moz-transform: rotate(45deg);
 	    -ms-transform: rotate(45deg);
-	     -o-transform: rotate(45deg);
 	        transform: rotate(45deg);
 	}
 .leaflet-popup-content-wrapper,
@@ -648,7 +651,6 @@ colorRange: ['#00796B', '#F9A825', '#E65100', '#DD2C00'],*/
   z-index: 1001;
   pointer-events: none;
   height: 200px;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
@@ -672,8 +674,7 @@ colorRange: ['#00796B', '#F9A825', '#E65100', '#DD2C00'],*/
 }
 #legend-inner .labels .label {
   position: absolute;
-  -webkit-transform: translateY(50%);
-          transform: translateY(50%);
+  transform: translateY(50%);
 }
 #legend-inner .labels .label:before {
   content: '\2013   ';
@@ -856,23 +857,17 @@ blockquote > figcaption:before {
   border-radius: 50%;
   background-color: currentColor;
   background-clip: padding-box;
-  transition: opacity 0.4s ease-out, -webkit-transform 0.4s ease-out;
   transition: transform 0.4s ease-out, opacity 0.4s ease-out;
-  transition: transform 0.4s ease-out, opacity 0.4s ease-out, -webkit-transform 0.4s ease-out;
   opacity: 0.1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 .ripple-ink-enter {
   opacity: 0.2;
-  -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
 }
 .ripple-ink-leave-active {
   opacity: 0;
-  transition: opacity 0.1s ease-out, -webkit-transform 0.1s ease-out;
   transition: transform 0.1s ease-out, opacity 0.1s ease-out;
-  transition: transform 0.1s ease-out, opacity 0.1s ease-out, -webkit-transform 0.1s ease-out;
 }
 .bunt-icon {
   font-size: 24px;
@@ -894,15 +889,12 @@ blockquote > figcaption:before {
   outline: none;
   border: none;
   position: relative;
-  display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   cursor: default;
   border-radius: 2px;
   padding: 0 16px;
@@ -923,7 +915,6 @@ body[modality="keyboard"] .bunt-button:focus {
   cursor: pointer;
 }
 .bunt-button-content {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
@@ -1081,15 +1072,12 @@ body[modality="keyboard"] .bunt-button-clear.color-default:focus {
   outline: none;
   border: none;
   position: relative;
-  display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   cursor: default;
   border-radius: 50%;
   padding: 0 16px;
@@ -1121,13 +1109,10 @@ body[modality="keyboard"] .bunt-icon-button:focus {
   font-size: 20px;
 }
 .bunt-input {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   height: 72px;
   padding-top: 16px;
 }
@@ -1152,11 +1137,8 @@ body[modality="keyboard"] .bunt-icon-button:focus {
   font-weight: 400;
   pointer-events: none;
   color: rgba(0,0,0,0.54);
-  transition: width 0.25s, -webkit-transform 0.25s;
   transition: transform 0.25s, width 0.25s;
-  transition: transform 0.25s, width 0.25s, -webkit-transform 0.25s;
-  -webkit-transform-origin: left top;
-          transform-origin: left top;
+  transform-origin: left top;
 /*line-height 24px*/
 }
 .bunt-input .underline {
@@ -1176,24 +1158,18 @@ body[modality="keyboard"] .bunt-icon-button:focus {
 .bunt-input .underline:after {
   background-color: #f44336;
   height: 2px;
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-  -webkit-transform: scale3d(0, 1, 1);
-          transform: scale3d(0, 1, 1);
-  transition: -webkit-transform 0.25s;
+  transform-origin: center center;
+  transform: scale3d(0, 1, 1);
   transition: transform 0.25s;
-  transition: transform 0.25s, -webkit-transform 0.25s;
 }
 .bunt-input.focused .underline:after {
-  -webkit-transform: none;
-          transform: none;
+  transform: none;
 }
 .bunt-input.focused.floating-label label {
   color: #f44336;
 }
 .bunt-input.floating-label label {
-  -webkit-transform: translateY(-75%) scale(0.75);
-          transform: translateY(-75%) scale(0.75);
+  transform: translateY(-75%) scale(0.75);
   width: 133%;
 }
 .bunt-input.dense {
@@ -1272,8 +1248,7 @@ body[modality="keyboard"] .bunt-icon-button:focus {
 }
 .bunt-progress-circular.active {
 /* duration: 360 * ARCTIME / (ARCSTARTROT + (360-ARCSIZE)) */
-  -webkit-animation: container-rotate 1568ms linear infinite;
-          animation: container-rotate 1568ms linear infinite;
+  animation: container-rotate 1568ms linear infinite;
 }
 .bunt-progress-circular.center {
   display: block;
@@ -1296,8 +1271,7 @@ body[modality="keyboard"] .bunt-icon-button:focus {
 .bunt-progress-circular.active .spinner-layer {
 /* durations 4 * ARCTIME */
   opacity: 1;
-  -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-          animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+  animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
 .bunt-progress-circular .gap-patch {
   position: absolute;
@@ -1327,8 +1301,7 @@ body[modality="keyboard"] .bunt-icon-button:focus {
   border-color: inherit;
   border-bottom-color: transparent !important;
   border-radius: 50%;
-  -webkit-animation: none;
-          animation: none;
+  animation: none;
   position: absolute;
   top: 0;
   right: 0;
@@ -1337,167 +1310,72 @@ body[modality="keyboard"] .bunt-icon-button:focus {
 .bunt-progress-circular .circle-clipper.left .circle {
   left: 0;
   border-right-color: transparent !important;
-  -webkit-transform: rotate(129deg);
-          transform: rotate(129deg);
+  transform: rotate(129deg);
 }
 .bunt-progress-circular .circle-clipper.right .circle {
   left: -100%;
   border-left-color: transparent !important;
-  -webkit-transform: rotate(-129deg);
-          transform: rotate(-129deg);
+  transform: rotate(-129deg);
 }
 .bunt-progress-circular.active .circle-clipper.left .circle {
 /* duration ARCTIME */
-  -webkit-animation: left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-          animation: left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+  animation: left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
 .bunt-progress-circular.active .circle-clipper.right .circle {
 /* duration ARCTIME */
-  -webkit-animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-          animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-}
-@-webkit-keyframes container-rotate {
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+  animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
 @keyframes container-rotate {
   to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-@-webkit-keyframes fill-unfill-rotate {
-  12.5% {
-    -webkit-transform: rotate(135deg) /* 0.5 * ARCSIZE */;
-            transform: rotate(135deg) /* 0.5 * ARCSIZE */;
-  }
-  25% {
-    -webkit-transform: rotate(270deg) /* 1   * ARCSIZE */;
-            transform: rotate(270deg) /* 1   * ARCSIZE */;
-  }
-  37.5% {
-    -webkit-transform: rotate(405deg) /* 1.5 * ARCSIZE */;
-            transform: rotate(405deg) /* 1.5 * ARCSIZE */;
-  }
-  50% {
-    -webkit-transform: rotate(540deg) /* 2   * ARCSIZE */;
-            transform: rotate(540deg) /* 2   * ARCSIZE */;
-  }
-  62.5% {
-    -webkit-transform: rotate(675deg) /* 2.5 * ARCSIZE */;
-            transform: rotate(675deg) /* 2.5 * ARCSIZE */;
-  }
-  75% {
-    -webkit-transform: rotate(810deg) /* 3   * ARCSIZE */;
-            transform: rotate(810deg) /* 3   * ARCSIZE */;
-  }
-  87.5% {
-    -webkit-transform: rotate(945deg) /* 3.5 * ARCSIZE */;
-            transform: rotate(945deg) /* 3.5 * ARCSIZE */;
-  }
-  to {
-    -webkit-transform: rotate(1080deg) /* 4   * ARCSIZE */;
-            transform: rotate(1080deg) /* 4   * ARCSIZE */;
+    transform: rotate(360deg);
   }
 }
 @keyframes fill-unfill-rotate {
   12.5% {
-    -webkit-transform: rotate(135deg) /* 0.5 * ARCSIZE */;
-            transform: rotate(135deg) /* 0.5 * ARCSIZE */;
+    transform: rotate(135deg) /* 0.5 * ARCSIZE */;
   }
   25% {
-    -webkit-transform: rotate(270deg) /* 1   * ARCSIZE */;
-            transform: rotate(270deg) /* 1   * ARCSIZE */;
+    transform: rotate(270deg) /* 1   * ARCSIZE */;
   }
   37.5% {
-    -webkit-transform: rotate(405deg) /* 1.5 * ARCSIZE */;
-            transform: rotate(405deg) /* 1.5 * ARCSIZE */;
+    transform: rotate(405deg) /* 1.5 * ARCSIZE */;
   }
   50% {
-    -webkit-transform: rotate(540deg) /* 2   * ARCSIZE */;
-            transform: rotate(540deg) /* 2   * ARCSIZE */;
+    transform: rotate(540deg) /* 2   * ARCSIZE */;
   }
   62.5% {
-    -webkit-transform: rotate(675deg) /* 2.5 * ARCSIZE */;
-            transform: rotate(675deg) /* 2.5 * ARCSIZE */;
+    transform: rotate(675deg) /* 2.5 * ARCSIZE */;
   }
   75% {
-    -webkit-transform: rotate(810deg) /* 3   * ARCSIZE */;
-            transform: rotate(810deg) /* 3   * ARCSIZE */;
+    transform: rotate(810deg) /* 3   * ARCSIZE */;
   }
   87.5% {
-    -webkit-transform: rotate(945deg) /* 3.5 * ARCSIZE */;
-            transform: rotate(945deg) /* 3.5 * ARCSIZE */;
+    transform: rotate(945deg) /* 3.5 * ARCSIZE */;
   }
   to {
-    -webkit-transform: rotate(1080deg) /* 4   * ARCSIZE */;
-            transform: rotate(1080deg) /* 4   * ARCSIZE */;
-  }
-}
-@-webkit-keyframes left-spin {
-  from {
-    -webkit-transform: rotate(130deg);
-            transform: rotate(130deg);
-  }
-  50% {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
-  }
-  to {
-    -webkit-transform: rotate(130deg);
-            transform: rotate(130deg);
+    transform: rotate(1080deg) /* 4   * ARCSIZE */;
   }
 }
 @keyframes left-spin {
   from {
-    -webkit-transform: rotate(130deg);
-            transform: rotate(130deg);
+    transform: rotate(130deg);
   }
   50% {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
+    transform: rotate(-5deg);
   }
   to {
-    -webkit-transform: rotate(130deg);
-            transform: rotate(130deg);
-  }
-}
-@-webkit-keyframes right-spin {
-  from {
-    -webkit-transform: rotate(-130deg);
-            transform: rotate(-130deg);
-  }
-  50% {
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
-  }
-  to {
-    -webkit-transform: rotate(-130deg);
-            transform: rotate(-130deg);
+    transform: rotate(130deg);
   }
 }
 @keyframes right-spin {
   from {
-    -webkit-transform: rotate(-130deg);
-            transform: rotate(-130deg);
+    transform: rotate(-130deg);
   }
   50% {
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
+    transform: rotate(5deg);
   }
   to {
-    -webkit-transform: rotate(-130deg);
-            transform: rotate(-130deg);
-  }
-}
-@-webkit-keyframes fade-out {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
+    transform: rotate(-130deg);
   }
 }
 @keyframes fade-out {
@@ -1520,8 +1398,7 @@ body[modality="keyboard"] .bunt-icon-button:focus {
   transition: all 0.25s ease-in-out;
 }
 .bunt-select.open .open-indicator {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 .bunt-select .bunt-input input {
   box-sizing: border-box;
@@ -1554,9 +1431,8 @@ body[modality="keyboard"] .bunt-icon-button:focus {
   margin-bottom: 24px;
 }
 .bunt-tabs.fullwidth .ui-tab-header-item {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
 }
 .bunt-tabs.raised {
   border: none;
@@ -1574,7 +1450,6 @@ body[modality="keyboard"] .bunt-icon-button:focus {
 }
 .bunt-tabs-header-items {
   position: relative;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
@@ -1587,29 +1462,23 @@ body[modality="keyboard"] .bunt-icon-button:focus {
 .bunt-tab-header-item {
   font-family: 'Roboto', "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
   position: relative;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 48px;
   padding: 0 12px;
   text-transform: uppercase;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   cursor: pointer;
   min-width: 80px;
 }
 .bunt-tab-header-item.type-icon-and-text {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   height: 72px;
 }
 .bunt-tab-header-item.type-icon-and-text .bunt-tab-header-item-icon {
@@ -1626,13 +1495,9 @@ body[modality="keyboard"] .bunt-icon-button:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transform-origin: left center;
-          transform-origin: left center;
-  transition: -webkit-transform;
+  transform: scale(0);
+  transform-origin: left center;
   transition: transform;
-  transition: transform, -webkit-transform;
 }
 .bunt-tabs-indicator.align-bottom {
   top: 0;
@@ -1655,18 +1520,15 @@ body,
 }
 #content {
   background-color: #fafafa;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: column;
-      -ms-flex-pack: column;
-          justify-content: column;
+  -ms-flex-pack: column;
+      justify-content: column;
 }
 .map {
   height: 100vh;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0;
-          flex: 1 0;
+  -ms-flex: 1 0;
+      flex: 1 0;
 }
 #cell-info {
   width: 310px;
@@ -1719,7 +1581,6 @@ body,
   text-align: right;
 }
 img.leaflet-tile {
-  -webkit-filter: grayscale(85%) saturate(150%) hue-rotate(60deg) contrast(90%) brightness(110%);
-          filter: grayscale(85%) saturate(150%) hue-rotate(60deg) contrast(90%) brightness(110%);
+  filter: grayscale(85%) saturate(150%) hue-rotate(60deg) contrast(90%) brightness(110%);
 }
 /*# sourceMappingURL=src/style.css.map */
