@@ -1,4 +1,10 @@
 module.exports = {
-	center: [48.80,9.20],
-	zoom: 11
+
+//  example for Stuttgart:
+//	center: [48.80,9.20],
+//	zoom: 11
+
+	center: [0,0],
+	zoom: 2
+
 }
