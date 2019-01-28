@@ -19,7 +19,7 @@ export default {
 //			leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 			leaflet.tileLayer('https://maps.luftdaten.info/tiles/{z}/{x}/{y}.png', {
 				attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
-				maxZoom: 13,
+				maxZoom: 15,
 				// continuousWorld: false,
 				// noWrap: true
 
