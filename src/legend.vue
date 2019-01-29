@@ -6,9 +6,9 @@
 		.labels
 			.label(style="bottom: 100%") 500
 			.label(style="bottom: 80%") 100
-			.label(style="bottom: 60%") 75
-			.label.limit(style="bottom: 40%") 50
-			.label(style="bottom: 20%") 25
+			.label(style="bottom: 60%") 50
+			.label.limit(style="bottom: 40%") 20
+			.label(style="bottom: 20%") 10
 			.label(style="bottom: 0%") 0 µg/m³
 </template>
 <script>
