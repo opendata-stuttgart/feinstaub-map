@@ -1570,6 +1570,9 @@ body,
 .leaflet-pane > svg .d3-overlay path {
   pointer-events: all;
 }
+.leaflet-control {
+  margin-top: 110px !important;
+}
 .d3-tip {
   font-family: 'Roboto Mono', 'Bitstream Vera Sans Mono', Consolas, Courier, monospace;
   font-size: 0.4rem;
