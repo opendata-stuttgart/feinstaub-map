@@ -1538,6 +1538,7 @@ body,
   overflow-y: auto;
   height: 100vh;
   font-size: 1.5rem;
+  z-index: 600;
 }
 #cell-info h3,
 #cell-info td {
