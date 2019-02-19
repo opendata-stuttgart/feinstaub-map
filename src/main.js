@@ -38,6 +38,11 @@ if (query.center) {
 		var hash_params = location.hash.split("/");
 		config.center = [hash_params[1],hash_params[2]];
 		config.zoom = hash_params[0].substring(1);
+		config.nooverlay = hash_params[3];
+		console.log("No Overlay:"+config.nooverlay);
+		if (typeof config.nooverlay !== "undefined" && config.nooverlay == "nooverlay") {
+			document.getElementById("betterplace").style.display = "none";
+		}
 } else {
 	var hostname = location.hostname;
 	var hostname_parts = hostname.split(".");
