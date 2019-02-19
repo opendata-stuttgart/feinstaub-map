@@ -10,7 +10,7 @@ import zooms from './zooms'
 
 const query = querystring.parse(window.location.search.substring(1))
 
-console.log(query)
+console.log("Query"+query);
 
 window.onpopstate = function(event) {
 	if ((typeof location.search !== 'undefined') && (typeof location.hash !== 'undefined') && (location.hash !== '')) {
@@ -31,6 +31,11 @@ window.onpopstate = function(event) {
 	}
 };
 
+console.log("Query No overlay: "+query.nooverlay);
+if (typeof query.nooverlay !== "undefined") {
+	config.nooverlay = true;
+}
+
 if (query.center) {
 	const center = query.center.split(',').map((coord) => parseFloat(coord))
 	config.center = center
@@ -38,9 +43,8 @@ if (query.center) {
 		var hash_params = location.hash.split("/");
 		config.center = [hash_params[1],hash_params[2]];
 		config.zoom = hash_params[0].substring(1);
-		config.nooverlay = hash_params[3];
 		console.log("No Overlay:"+config.nooverlay);
-		if (typeof config.nooverlay !== "undefined" && config.nooverlay == "nooverlay") {
+		if (typeof config.nooverlay !== "undefined") {
 			document.getElementById("betterplace").style.display = "none";
 		}
 } else {
