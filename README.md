@@ -75,5 +75,5 @@ npm run ghpages
 ```
 
 ### Including the map in another page
-If you plan to use the map as an iframe and want to disable the Betterplace image use the following link:
+If you plan to use the map as an iframe and want to disable the Betterplace image use the following link:  
 http://\<city name.\>map.luftdaten.info/?nooverlay\<#zoom/lat/lon\>  
