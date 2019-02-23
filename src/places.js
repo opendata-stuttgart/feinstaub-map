@@ -551,6 +551,10 @@ module.exports = {
 //	Taiwan
 	"taiwan": [23.63,121.0532],
 
+//	Tajikistan
+	"tajikistan": [38.583,71.367],
+	"dushanbe": [38.56,68.774],
+
 //	Thailand
 	"thailand": [15.4,101.3],
 

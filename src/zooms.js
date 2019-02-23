@@ -249,6 +249,9 @@ module.exports = {
 //	Taiwan
 	"taiwan": 8,
 
+//	Tajikistan
+	"tajikistan": [7],
+
 //	Thailand
 	"thailand": 5,
 
