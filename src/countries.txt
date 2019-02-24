@@ -62,6 +62,7 @@
 //		Europe		SI	Slovenia
 //		Europe		SK	Slovakia
 //	*	Asia		TH	Thailand
+//		Asia		TJ	Tajikistan
 //		Asia		TR	Turkey
 //	*	Asia		TW	Taiwan (nur externe Sensoren via MQTT)
 //		Africa		TZ	Tanzania
