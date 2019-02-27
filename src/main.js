@@ -34,6 +34,8 @@ window.onpopstate = function(event) {
 console.log("Query No overlay: "+query.nooverlay);
 if (typeof query.nooverlay !== "undefined") {
 	config.nooverlay = true;
+} else {
+	document.getElementById("betterplace").style.display = "block";
 }
 
 if (query.center) {
@@ -43,10 +45,6 @@ if (query.center) {
 		var hash_params = location.hash.split("/");
 		config.center = [hash_params[1],hash_params[2]];
 		config.zoom = hash_params[0].substring(1);
-		console.log("No Overlay:"+config.nooverlay);
-		if (typeof config.nooverlay == "undefined") {
-			document.getElementById("betterplace").style.display = "block";
-		}
 } else {
 	var hostname = location.hostname;
 	var hostname_parts = hostname.split(".");
