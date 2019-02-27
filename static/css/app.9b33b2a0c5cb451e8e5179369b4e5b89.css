@@ -1595,6 +1595,7 @@ img.leaflet-tile {
   z-index: 500;
   max-width: 25%;
   clear: both;
+  display: none;
 }
 #betterplace img {
   border: 0px;
