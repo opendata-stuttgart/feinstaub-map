@@ -368,6 +368,7 @@ module.exports = {
 //	Serbia
 	"serbia": [44,21],
 	"belgrade": [44.8167,20.4667],
+	"nis": [43.321,21.896],
 
 //	Slovakia
 	"slovakia": [48.667, 19.5],
