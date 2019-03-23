@@ -48,7 +48,7 @@ if (query.center) {
 } else {
 	var hostname = location.hostname;
 	var hostname_parts = hostname.split(".");
-	if (hostname_parts.length = 4) {
+	if (hostname_parts.length == 4) {
 		var place = hostname_parts[0].toLowerCase();
 		if (typeof places[place] !== 'undefined' && places[place] !== null) {
 			config.center = places[place];
