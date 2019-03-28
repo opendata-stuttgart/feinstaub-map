@@ -47,6 +47,7 @@
 //		Europe		LV	Latvia
 //		Europe		MK	Macedonia
 //		America		MX	Mexico
+//		Asia		MY	Malaysia
 //		Africa		NG	Nigeria
 //		Europe		NL	Netherlands
 //		Europe		NO	Norway

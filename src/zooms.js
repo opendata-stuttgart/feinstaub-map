@@ -235,7 +235,7 @@ module.exports = {
 	"kyrgyzstan": 7,
 
 //	Malaysia
-	"malaysia": 7,
+	"malaysia": 6,
 	
 //	Nepal
 	"nepal": 7,

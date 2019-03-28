@@ -533,7 +533,7 @@ module.exports = {
 	"bishkek": [42.867,74.567],
 
 //	Malaysia
-	"malaysia": [4.226,114.033],
+	"malaysia": [4.5,108.8],
 	"kuala-lumpur": [3.141,101.698],
 	"putrajaya": [2.943,101.699],
 
